@@ -1,12 +1,12 @@
 # Current Release Readiness State
 
-State revision: `1.7`
+State revision: `1.8`
 
-Status: `STABLE_DOCUMENTATION_PATCH_MATERIALIZED / CURRENT_RELEASE_WORK_UNIT_CLOSED`
+Status: `STABLE_DOCUMENTATION_PATCH_MATERIALIZED / PUBLICATION_UPDATE_PENDING`
 
-Distribution: `1.0.1`
+Distribution: `1.0.2`
 
-Stable predecessor: `1.0.0`
+Stable predecessor: `1.0.1`
 
 Canonical handoff: `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`
 
@@ -15,83 +15,74 @@ Upstream semantic identity:
 - Trigger Index `v0.1`
 
 Current active Project-source predecessor at patch-materialization time:
-- `CURRENT_RELEASE_READINESS_STATE_v1.6(1).md`
+- `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md`
 
-Fresh-execution evidence:
-- `FRESH_ENVIRONMENT_EXECUTION_RECORD_v1.0(1).md`
-- package copy: `tests/fresh_environment/EXECUTION_RECORD.md`
+Public repository:
+- `https://github.com/639228/structural-reading-protocol`
 
 ## 1. Role of this artifact
 
-This is the downstream release-state owner prepared for stable documentation patch Distribution `1.0.1`.
+This is the downstream release-state owner prepared for stable documentation patch Distribution `1.0.2`.
 
-It records a README acknowledgement addition over verified stable Distribution `1.0.0`.
+It records a concrete Quick Start usage example and the now-assigned repository metadata over verified stable Distribution `1.0.1`.
 
 It does not revise canonical Protocol semantics, Trigger runtime semantics, Regression expectations, upstream source selection, or the saved strength of fresh behavioral evidence.
 
 ## 2. Patch delta
 
 Verified stable base:
-`1.0.0`
-
-Verified base archive SHA-256:
-`2b273301e8ec953dc0d63b977162046f33e8dc453e1cfd0724d89cc51de6698e`
-
-Current Distribution:
 `1.0.1`
 
+Verified base archive SHA-256:
+`7b1d0db2711fdc3e0b622d813068072fc86de55d23cebaabb94ee1008038e42d`
+
+Current Distribution:
+`1.0.2`
+
 Substantive public-document delta:
-- add `## 謝辞` to `README.md`;
-- record author-supplied contextual provenance that the transmissions occurred while the author was studying at 信州大学;
-- preserve the distinction between the transmitted definitions/conditions and the Protocol's later operational development.
+- add a non-canonical `Quick Start` to `README.md`;
+- record the assigned public repository URL in README / CITATION / VERSION metadata;
+- preserve Protocol/Trigger ownership, non-checklist behavior, and the existing two-file minimum runtime path.
 
-Release-control delta:
-- Distribution/version/release-state documentation updated;
-- Project source capacity ledger refreshed;
-- Work Unit 07 added;
-- package checksum inventory regenerated.
-
-Unchanged from verified `1.0.0`:
+Unchanged from verified `1.0.1`:
 - runtime Protocol bytes;
 - runtime Trigger bytes;
 - Coverage / Manifest / Retrieval / Regression / Cross / Integration bytes;
 - `INSTALLATION.md`;
 - `LICENSE.md`;
-- `CITATION.md`;
 - public license/citation authority record;
-- saved fresh-environment execution record and test plan.
+- saved fresh-environment execution record and test plan;
+- README acknowledgement wording.
 
-The README acknowledgement is downstream explanatory/attribution documentation. It is not a semantic owner and does not retroactively change the canonical Protocol wording.
+## 3. Quick Start / bootstrap boundary
 
-## 3. Acknowledgement provenance boundary
+The new Quick Start is a downstream explanatory usage example. It is explicitly not a canonical system prompt and does not replace the Protocol or Trigger Index.
 
-The canonical Protocol already records:
-- the definition `小説におけるリズムとは、予測可能な未来である` as transmitted from 佐々木寛, while explicitly prohibiting attribution of the later operation system as his own system;
-- the four conditions `新しいこと / 他の知の体系と繋がっていること / 100％理屈であること / 明晰であること` as transmitted from 篠原成彦 in a logic class, while explicitly separating later Protocol operational development from his own explicit system.
+It restates the existing runtime-role separation and non-checklist requirements while giving ordinary users a concrete path for attaching the two runtime files and beginning use.
 
-The README phrase `信州大学で学んでいた際に` is author-supplied contextual provenance for public acknowledgement. It is not promoted into canonical Protocol semantics by this patch.
+No platform-specific installer or new semantic owner is created. `INSTALLATION.md` remains unchanged.
 
 ## 4. Fresh behavioral carry-forward
 
 Saved fresh result:
 `8 / 8 PREPARED FD CASES PASS`
 
-A new behavioral run is `NO START` for `1.0.1`. The patch does not change runtime files, `INSTALLATION.md`, bootstrap semantics, runtime-role guidance, necessity gating, routing, or stop semantics. The new README acknowledgement is non-normative and does not instruct runtime behavior.
+A new behavioral run is `NO START` for `1.0.2`. The Quick Start does not add a new semantic instruction; it exposes an already documented and previously observed bootstrap path more concretely.
 
 This carry-forward does not establish protocol-wide adequacy, natural whole-protocol execution, hidden dispatch correctness, cross-model/cross-environment reproducibility, absence of systematic weakness, or universal performance improvement.
 
 ## 5. Package verification result
 
-Final `1.0.1` package verification:
+Final `1.0.2` package verification:
 `PASS`
 
 Verified:
 - required runtime pair present;
 - canonical/source SHA-256 inventory passes;
 - declared patch delta matches actual byte-changing set;
-- all canonical semantic/support/runtime payloads required to remain unchanged are byte-identical to verified `1.0.0`;
-- `INSTALLATION.md`, LICENSE, CITATION, authority record, and saved fresh execution evidence are byte-identical to verified `1.0.0`;
-- README retains runtime ownership, non-checklist, evidence-boundary, and version-separation guidance;
+- all semantic/support/runtime payloads required to remain unchanged are byte-identical to verified `1.0.1`;
+- `INSTALLATION.md`, LICENSE, authority record, and saved fresh execution evidence are byte-identical to verified `1.0.1`;
+- README Quick Start preserves runtime ownership and explicitly rejects replacement/checklist misuse;
 - package-wide SHA-256 inventory passes after patch materialization;
 - rebuilt tar.gz re-extracts successfully and package-wide checksum verification passes.
 
@@ -103,16 +94,17 @@ Verified:
 | Runtime role separation | PASS | ready |
 | Distribution layering | PASS | ready |
 | Portable loading path | PASS | ready |
+| Quick Start | integrated as non-canonical usage example | PASS |
 | Canonical/source byte identity | PASS | ready |
 | Package-wide integrity | PASS | ready |
 | Fresh behavioral deployment | EXECUTED — bounded FD-01..FD-08 PASS | ready at saved strength |
-| README acknowledgement | integrated as non-normative provenance/thanks | PASS |
 | LICENSE | PASS — CC BY 4.0 integrated | ready |
-| CITATION | PASS — creator `639228` integrated | ready |
-| Repository | not yet assigned | not blocker |
+| CITATION | PASS — repository metadata updated | ready |
+| Repository | `https://github.com/639228/structural-reading-protocol` | assigned |
 | DOI | not yet assigned | not blocker |
 | Semantic defect candidate | none exposed by current downstream work | no semantic patch authorized |
-| Stable Distribution identity | `1.0.1` materialized and verified | PASS |
+| Stable Distribution identity | `1.0.2` materialized and verified | PASS |
+| GitHub publication | `v1.0.2` not yet published at materialization time | pending hosting update |
 
 ## 7. Semantic-change boundary
 
@@ -123,28 +115,28 @@ Current semantic defect candidate:
 
 ## 8. Project-source admission / retirement path
 
-Direct Project-source rediscovery before this patch confirmed `CURRENT_RELEASE_READINESS_STATE_v1.6(1).md` as the active current readiness owner at a steady active Project-source inventory of `17 / 25`.
+Direct Project-source rediscovery before this patch confirmed `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` as the active current readiness owner at a steady active Project-source inventory of `17 / 25`.
 
 If this revision is admitted as the new Project current readiness owner:
-- direct-rediscover `CURRENT_RELEASE_READINESS_STATE_v1.7.md`;
-- retire `CURRENT_RELEASE_READINESS_STATE_v1.6(1).md` one-for-one after admission verification.
+- direct-rediscover `CURRENT_RELEASE_READINESS_STATE_v1.8.md`;
+- retire `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` one-for-one after admission verification.
 
 Expected steady state after one-for-one replacement:
 `17 / 25`, reserve `8`.
 
-Do not add package-internal Work Unit 07 or checksum files to active Project sources unless a concrete future judgment requires them.
+Do not add package-internal Work Unit 08 or checksum files to active Project sources unless a concrete future judgment requires them.
 
 ## 9. Stop condition
 
-README acknowledgement patch materialization is closed.
+Quick Start / repository-metadata patch materialization is closed.
 
 Further behavioral testing: `NO START` at current inputs.
 
 Semantic patching: `NO START`.
 
-Additional packaging/release revision: `NO START` unless a concrete distribution defect, publication-hosting requirement, metadata change, acknowledgement correction, or upstream canonical successor appears.
+Next allowed downstream step: publish the already-materialized `1.0.2` bytes to the existing GitHub repository as `v1.0.2`, then record publication state if needed.
 
-At current inputs:
+At current materialization inputs:
 `STOP`
 
 END
