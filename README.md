@@ -1,108 +1,546 @@
-# 構造的読解プロトコル — Public Distribution
+# 構造的読解プロトコル
 
-**Distribution:** `1.0.2`  
-**Status:** **stable public release**
+[English](README.en.md)
 
-This package is a downstream public-distribution build of the canonical snapshot handed off as `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`.
+**配布版:** `1.0.2`  
+**状態:** 安定公開版
 
-It does not revise the upstream semantic specification.
+### ChatGPTに「もっと深く考えさせる」ためではなく、
+### **何を、なぜ、どこまで考える必要があるかを制御するための実行アーキテクチャ。**
 
-## Quick Start
+> **能力を追加するのではなく、能力への到達経路を設計する。**
 
-For a file-capable ChatGPT / LLM environment, the following is a distribution-side usage example. It is **not** a canonical system prompt and does not replace the Protocol or Trigger Index.
+ChatGPTは、文章を要約し、分析し、比較し、仮説を立て、調査し、評価することができます。
 
-1. Download and extract this distribution.
-2. Attach or otherwise make these two files directly available to the target model:
-   - `runtime/構造的読解プロトコル v8.3.18.txt`
-   - `runtime/Trigger_Index_candidate_v0.1.txt`
-3. Send a bootstrap instruction such as:
+しかし、長い読解や複雑な分析を任せると、別の問題が現れることがあります。
+
+**できることが多いからこそ、何を実行すべきかが安定しない。**
+
+たとえば、
+
+- 本文からすでに言えることまで、「別の可能性もある」と弱め続ける
+- ユーザーが尋ねた問いを、答えやすい別の問いへ少しずつ置き換える
+- 「珍しいか」を聞かれているのに、「世界初か」を検証し始める
+- 原典を確認する必要がある場面と、確認しなくても現在の判断が成立する場面を区別できない
+- 重要そうな箇所を見つけると、全文や後続文脈を確認する前に解釈を固定する
+- 逆に、すでに十分な判断が成立しているのに、「まだ別の観点がある」という理由だけで探索を続ける
+- 一つの不確実性を、独立して成立している別の判断にまで広げる
+- 「深く分析する」ことが、可能な論点を全部列挙することへ変わる
+
+といったことが起こりえます。
+
+これは、モデルに分析能力がないという問題とは少し違います。
+
+むしろ、
+
+> **高い分析能力を、いつ起動し、何に使い、どこで止めるか**
+
+という実行制御の問題です。
+
+構造的読解プロトコルは、この考え方を、精密読解・能動的探究・研究・評価・状態管理・監査まで含む実行体系として具体化した、自然言語ベースの実行アーキテクチャです。
+
+---
+
+## これは何か
+
+構造的読解プロトコルは、精密読解・能動的探究・研究・評価・状態管理・監査を、一つの実行体系として扱います。
+
+中心にある考え方は単純です。
+
+> **現在の証拠から成立することは、その強さで成立させる。**  
+> **未確認のことは未確認のまま残す。**  
+> **そして、現在の判断を本当に変えうる検査だけを行う。**
+
+このプロトコルでは、将来訂正される可能性があるというだけで、現在十分に支持されている判断を永久に曖昧なままにはしません。
+
+同時に、証拠が足りないものを確定済みにもしません。
+
+さらに、自分でより強い未確認命題を追加し、その未確認を理由に、元の命題まで弱めることを避けます。
+
+---
+
+## 普通にChatGPTを使う場合と何が違うのか
+
+通常のChatGPTでも、
+
+- 「丁寧に読んで」
+- 「深く考えて」
+- 「根拠を確認して」
+- 「必要なら調査して」
+
+と頼むことはできます。
+
+しかし、これらは主に**能力への指示**です。
+
+構造的読解プロトコルが追加するのは、より細かい**実行条件**です。
+
+つまり、
+
+- 何が観察されたら、どの操作が候補になるのか
+- その操作は本当に今必要なのか
+- 何を確認すれば判断が分かれるのか
+- 確認しなくても現在の判断は成立するのか
+- 必要なら次にどこへ進むのか
+- どこまで確認したら止めるのか
+
+までを扱います。
+
+付属する **Trigger Index** は、このための実行時の振り分け層です。
+
+観察可能な徴候から既存の操作へ到達するために、各入口は次の6項目を持ちます。
+
+1. 観察可能な発火徴候
+2. 候補操作
+3. 識別対象
+4. 未検査でも現在必要な判断が成立する条件
+5. 必要な場合の配送先
+6. 停止条件
+
+そのため、
+
+> **「使えそうな分析手法がある」**  
+> **≠**  
+> **「いまその分析を実行する必要がある」**
+
+と扱えます。
+
+プロトコル本文も、
+
+> 「器具を持っていることは、その器具を使う必要があることを意味しない」
+
+> 「必要な操作だけを起動する」
+
+と定めています。
+
+---
+
+## 「全部を深く読む」プロンプトではありません
+
+このプロトコルは、常に最大量の分析を行わせるものではありません。
+
+むしろ逆です。
+
+読む細かさ自体を固定しません。
+
+通常は、**現在の判断に十分な最小解像度**で読みます。
+
+語の指示関係、構文、主語、否定、時制などを精査することで判断が変わりうる場合だけ、その箇所の解像度を上げます。
+
+短い作品で全文精読が合理的なら全文を精密に読みますが、それは全文へすべての分析操作を一律適用することを意味しません。
+
+つまり目標は、
+
+> **最大分析量ではなく、必要十分な分析。**
+
+です。
+
+---
+
+## 何ができるのか
+
+### 1. 文学・批評・複雑な文章を、局所と全体を混同せず読む
+
+一つの言葉やモチーフに一つの意味だけを貼り付けず、話者・時点・対象・関係・文脈経路の違いによって、異なる意味作用が同時に成立する可能性を扱えます。
+
+「どちらが正しいか未確定」と「異なる経路で両方が成立している」を区別します。
+
+### 2. 仮説を立てても、可能性だけで現在の判断を崩さない
+
+別解を思いつけること自体は、その別解が現在の証拠に対する実在の競合になったことを意味しません。
+
+必要なら説明力・反証力・識別力を確認し、閉じた可能性は「慎重さ」のためだけに再び開きません。
+
+### 3. 必要なときだけ原典・外部資料へ進む
+
+引用元や先行研究を確認できるからといって、自動的に検索を始めません。
+
+現在の判断がその差に依存する場合は確認する。  
+依存しないなら起動しない。
+
+逆に、原典との差が現在の判断を実際に左右するなら、名前を知っているだけで済ませず、必要な比較へ進みます。
+
+### 4. 「まだ考えられる」と「まだ考える必要がある」を分ける
+
+分析は、続けようと思えばほとんど無限に続けられます。
+
+このプロトコルでは、
+
+- 別の意味があるかもしれない
+- 別の質問も作れる
+- もっと長く書ける
+- もっと学術的にできる
+
+というだけでは作業を延長しません。
+
+必要な判断が成立し、それ以上の処理が実質的な判別力を増やさない地点で停止します。
+
+### 5. 読解だけでなく、研究・評価・比較にも使う
+
+構造的読解プロトコルは、単なる文学分析テンプレートではありません。
+
+対象を読み、問いを形成し、識別力のある次の一手を選び、必要なら調査し、結果によって認識状態を更新し、必要な場合だけ評価へ進みます。
+
+独創性・新規性・先取性についても、「独創的」と「歴史的に最初」を一つの軸に潰さず、別の評価命題として扱います。
+
+---
+
+## なぜ導入するのか
+
+このプロトコルが提供するのは、新しい知識データベースではありません。
+
+ChatGPTが利用できる、
+
+- 読解
+- 比較
+- 仮説形成
+- 推論
+- 調査
+- 評価
+- 批判
+- 状態更新
+
+といった能力を、一つの長い回答の中で雑に全部使わせるのではなく、現在の状況に応じて選択的に使うための実行構造です。
+
+つまり、このプロトコルが主に設計しているのは、個々の能力そのものではなく、
+
+- どの能力を候補にするか
+- いま起動する必要があるか
+- 何を識別するために使うか
+- 別の操作へ進む必要があるか
+- どこで停止するか
+
+という、**能力への到達と実行の経路**です。
+
+冒頭で述べた、
+
+> **能力を追加するのではなく、能力への到達経路を設計する。**
+
+という考え方が、通常利用との重要な差分です。
+
+「もっと賢く答えてほしい」だけなら、このプロトコルは必要ないかもしれません。
+
+しかし、
+
+- 長い作品を継続的に読ませたい
+- 複数の資料を混同せず扱いたい
+- 本文と原典、引用と解釈を分けたい
+- 仮説を積み上げながら、過去の認識状態も保持したい
+- 必要な場合にはAI自身に次の問いを形成させたい
+- それでも無限探索にはしたくない
+- 評価を頼んだとき、勝手に評価軸を移動してほしくない
+- 「慎重さ」を理由に、分かっていることまで曖昧にしてほしくない
+
+なら、このプロトコルが対象としている問題に近い使い方です。
+
+---
+
+## 目指しているのは「慎重なAI」だけではありません
+
+慎重すぎるAIは、何も確定しなくなります。
+
+積極的すぎるAIは、証拠より先へ進みます。
+
+構造的読解プロトコルが目指すのは、その中間を取ることではありません。
+
+> **証拠が確定を許すところでは確定し、**  
+> **保留を要求するところでは保留し、**  
+> **次の判断に必要な未確認だけを検査する。**
+
+という制御方式です。
+
+---
+
+## まず試してみる
+
+特別なコマンド体系を覚える必要はありません。
+
+普段と同じように、
+
+- 小説を読ませる
+- 論文や評論を渡す
+- 複数資料を比較させる
+- 自分の考察を批判させる
+- 「この解釈は成立する？」と尋ねる
+- 長期的に一作品を読み進める
+
+といった使い方から始められます。
+
+たとえば、
 
 ```text
-添付した2ファイルをruntime packageとして使用してください。構造的読解プロトコル本文をnormative/semantic owner、Trigger Indexをruntime dispatchとして扱ってください。Trigger IndexはProtocol本文を置き換えず、固定checklistとして扱わないでください。以後の質問にはこのruntime packageを使用して回答してください。
+この短編を精読して、語り手と人物の認識のずれがどこで作られているか分析して。
 ```
 
-4. After the model has loaded the two roles correctly, ask the question you actually want answered.
+```text
+この作品の構造は珍しいと言える？
+「世界初である」「先行例が存在しない」といった別の命題へ勝手に置き換えずに判断して。
+```
 
-For ordinary use, `developer_research/` and `evidence_provenance/` do not need to be loaded. See `INSTALLATION.md` for the distribution-side loading contract.
+```text
+この引用の出典と伝達経路が現在の解釈に重要なら調べて。
+重要でなければ、そこで調査を増やさなくていい。
+```
 
-## Runtime: what you actually need
+違いは、回答の裏側で、
 
-For ordinary runtime use, use these two files together:
+**何を対象としているか**
+→ **何が現在成立しているか**
+→ **何がまだ判断を分けるか**
+→ **どの操作が必要か**
+→ **どこで止めるか**
 
-1. `runtime/構造的読解プロトコル v8.3.18.txt`
-   - normative specification
-   - semantic operation owner
-   - Reference Gate basis
+を明示的な実行問題として扱うことです。
 
-2. `runtime/Trigger_Index_candidate_v0.1.txt`
-   - observable runtime sign → existing operation dispatch
-   - runtime entrance / necessity / routing / stop semantics
+> **ChatGPTは、深く考えることができる。**
+> **このプロトコルは、「いつ、何について、どこまで深く考える必要があるか」を制御する。**
 
-The protocol body and Trigger Index have different roles. The Trigger Index does not replace the protocol body.
+---
 
-Do not turn the Trigger Index into a fixed checklist. A visible sign is not by itself a requirement to start every related operation. `NO START`, `NO FIRE`, and `STOP` are valid runtime results when the canonical conditions say so.
+# ChatGPTで使う
 
-## Minimal use
+## 初めて使う場合の推奨構成
 
-1. Make both files in `runtime/` directly available to the target model or execution environment.
-2. Preserve the protocol body as the normative semantic owner and the Trigger Index as the runtime dispatch layer.
-3. Prefer direct access to these canonical files over rewriting them into a new summarized rule set.
-4. Keep developer/research and evidence/provenance artifacts outside the ordinary runtime path unless they are needed for verification, research, or provenance work.
+ChatGPTで初めて試す場合は、新しいプロジェクトを1つ作り、そのプロジェクトの**「情報源」**に次の4ファイルを追加する方法を推奨します。
 
-See `INSTALLATION.md` for the distribution-side loading requirements.
+```text
+README.md
+INSTALLATION.md
+runtime/構造的読解プロトコル v8.3.18.txt
+runtime/Trigger_Index_candidate_v0.1.txt
+```
 
-## Package layers
+この4ファイル構成は、実行用の正本2ファイルに加えて、ChatGPT自身が配布上の役割説明と導入方法を参照できるようにするものです。
 
-### `runtime/`
-Minimal runtime package.
+実際の意味判断と操作内容を所有する正規の実行用ファイルは、Protocol本文とTrigger Indexの2ファイルです。
 
-### `developer_research/`
-Development and verification support:
+READMEとINSTALLATIONは導入・案内文書であり、実行用正本そのものではありません。
 
-- Coverage Map — development-time operation → entrance coverage audit; not a runtime checklist.
-- Regression Fixtures — artificial semantic regression baseline; not natural execution evidence.
-- Artifact Retrieval Index — structural retrieval sidecar; not a semantic owner.
-- Materialization Source Manifest — projection/provenance support; not runtime semantics.
-- Cross Artifact Consistency Audit — bounded projection/retrieval consistency audit.
+### 最小構成
 
-### `evidence_provenance/`
-Current supplied provenance carrier for composition-delta integration.
+すでに使い方を理解している場合、実行に必要な最小構成は次の2ファイルです。
 
-The current input set does **not** contain every natural execution replay or historical evidence carrier referenced by the support artifacts. Missing carriers are not reconstructed from conversational memory or embedded references.
+```text
+runtime/構造的読解プロトコル v8.3.18.txt
+runtime/Trigger_Index_candidate_v0.1.txt
+```
 
-### `historical_archive/`
-No historical archive payload is included in this stable public distribution. Checkpoint/predecessor history remains outside ordinary runtime use.
+---
 
-### `release_control/`
-Downstream source-selection, intake, release-engineering records, and package checks.
+## ChatGPTでの詳しい導入手順
 
-## Evidence boundary
+### 1. 新しいプロジェクトを作る
 
-Current support artifacts contain bounded artificial regression and bounded projection/provenance results. This distribution does **not** claim:
+ChatGPTで新しいプロジェクトを作ります。
 
-- protocol-wide adequacy,
-- natural whole-protocol end-to-end execution,
-- reproducibility across all models or environments,
-- absence of systematic weakness,
-- historical firstness or absence of prior art,
-- universal performance improvement.
+プロジェクト名は自由です。たとえば、
 
-The current handoff also does not authorize a Trigger semantic repair, a new runtime operation, new Trigger rows, or field 4 / field 6 semantic changes.
+```text
+構造的読解プロトコル
+```
 
+で構いません。
 
-## License and citation
+アイコンや色は任意です。
 
-- Creator / Licensor: `639228`
-- License: Creative Commons Attribution 4.0 International (`CC BY 4.0`)
-- DOI: not yet assigned
-- Repository: https://github.com/639228/structural-reading-protocol
+### 2. プロジェクト指示は空欄でよい
 
-See `LICENSE.md` for licensing scope and attribution terms, and `CITATION.md` for the preferred citation form.
-The authoritative downstream metadata decision is preserved in `release_control/PUBLIC_LICENSE_AND_CITATION_AUTHORITY_v1.0.md`.
+プロジェクト指示は空欄のままで構いません。
 
-## Version identities
+Protocol本文やTrigger Indexをプロジェクト指示へ全文コピーしたり、短く要約して貼り付けたりする必要はありません。
 
-These versions are independent:
+基本利用では、正規のファイルを「情報源」から直接参照できる状態にし、別の要約ルールを作らない方が、正本とのずれを避けやすくなります。
+
+### 3. 「情報源」に4ファイルを追加する
+
+プロジェクトの「情報源」から、次の4ファイルを追加します。
+
+```text
+README.md
+INSTALLATION.md
+構造的読解プロトコル v8.3.18.txt
+Trigger_Index_candidate_v0.1.txt
+```
+
+GitHubから取得した配布物では、後ろの2ファイルは `runtime/` フォルダにあります。
+
+`developer_research/`、`evidence_provenance/`、`release_control/`、`tests/` の内容を、通常利用のために全部追加する必要はありません。
+
+### 4. プロジェクト内で新しいチャットを作る
+
+4ファイルを「情報源」に追加したら、そのプロジェクトの中で新しいチャットを始めます。
+
+最初に、次の初期指示を1回送ってください。
+
+```text
+このプロジェクトの情報源に追加されたREADME.mdおよびINSTALLATION.mdに従って、次の2つの実行用ファイルを使用してください。
+
+・構造的読解プロトコル v8.3.18.txt
+・Trigger_Index_candidate_v0.1.txt
+
+構造的読解プロトコル本文を、意味判断と各操作の内容を定める規範仕様として扱ってください。
+Trigger Indexは、観察された徴候から現在必要な操作へ到達するための実行時の振り分けとして扱ってください。
+
+Trigger Indexを固定チェックリストとして扱わないでください。
+徴候が見つかっただけで操作を自動的に起動せず、現在の判断に必要で、かつその操作に実質的な識別力がある場合だけ使用してください。
+起動しない（NO START）、発火しない（NO FIRE）、停止する（STOP）が成立する場合は、それを正規の結果として扱ってください。
+
+以後、私が文章や質問を提示したら、必要に応じてこれらの情報源を直接参照して回答してください。
+```
+
+この初期指示は、配布物の読み込み方を示すための導入文です。
+
+Protocol本文やTrigger Indexそのものの代わりではありません。
+
+### 5. 読み込みを確認したい場合
+
+必須ではありませんが、最初だけ確認したい場合は、次のように聞けます。
+
+```text
+今使っている4つの情報源の役割を簡潔に説明してください。
+特に、Protocol本文とTrigger Indexの役割の違いを説明してください。
+```
+
+確認したいのは、少なくとも次の点です。
+
+- Protocol本文が、意味判断と各操作の内容を定める規範仕様として認識されている
+- Trigger Indexが、観察された徴候から必要な操作へ到達するための実行時の振り分けとして認識されている
+- Trigger Indexが「毎回全部実行するチェックリスト」として扱われていない
+
+### 6. 読ませたい文章や資料を渡す
+
+あとは通常どおりです。
+
+短い文章ならチャットへ貼り付けます。
+
+```text
+次の文章を精読してください。
+
+（本文）
+```
+
+長い作品、論文、評論、資料などは、そのチャットへファイルとして添付できます。
+
+同じ資料をプロジェクト内の複数チャットで継続的に使う場合は、その資料自体をプロジェクトの「情報源」へ追加することもできます。
+
+ただし、
+
+```text
+Protocol / Trigger Index = 実行方法を定める資料
+小説・論文・評論・資料 = 読解・分析の対象
+```
+
+という役割の違いは保ってください。
+
+### 7. 普通の日本語で質問する
+
+利用者がProtocolの操作名を覚える必要はありません。
+
+たとえば、
+
+```text
+この人物の発言は、本心と建前のどちらとして読むのが妥当？
+```
+
+```text
+この作品で読者の予測がどのように作られているか見て。
+```
+
+```text
+この解釈は本文から成立する？
+反対解釈が実在の競合になるなら比較して。
+```
+
+```text
+必要なら原典まで確認して。
+ただし、現在の判断が変わらないなら不要な検索は増やさないで。
+```
+
+のように、そのまま依頼できます。
+
+どの操作を起動するか、追加確認が必要か、どこで停止するかは、Protocol本文とTrigger Indexに従って実行側が判断します。
+
+### 8. 同じチャットを続ける場合
+
+同じチャットを継続する限り、通常は初期指示を毎回送り直す必要はありません。
+
+### 9. 新しいチャットを作る場合
+
+同じプロジェクト内でも、新しいチャットを始める場合は、上記の初期指示を最初にもう一度送る運用を推奨します。
+
+プロジェクト指示を空欄にしているため、そのチャットで2つの実行用ファイルをどう扱うかを開始時に明示するためです。
+
+### 10. やらなくてよいこと
+
+通常利用では、次のことは不要です。
+
+- Protocol本文をプロジェクト指示へ全文コピーする
+- Protocol本文を短く要約し、その要約だけを使う
+- Trigger Indexを固定チェックリストへ書き換える
+- Coverage MapやRegression Fixturesを毎回「情報源」へ追加する
+- 利用者が全操作を自分で選んで順番に指定する
+- 可能な検査を全部実行するよう指示する
+
+---
+
+## 言語について
+
+本配布版の正規の実行用文書は日本語で記述されています。
+
+英語版READMEと英語版導入文書は、海外の利用者が配布物の構成・導入方法・証拠範囲を理解するための案内文書です。
+
+Protocol本文やTrigger Indexの英訳版ではありません。
+
+英語で質問した場合に日本語の場合と同等の挙動が得られることや、Protocol本文・Trigger Indexを英訳した場合に同じ意味上の挙動が保たれることは、現在の証拠では確立されていません。
+
+---
+
+## この公開配布版について
+
+この配布物は、`PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0` として上流の開発Projectから引き渡された正本スナップショットを、第三者が利用・検証できる形にまとめた公開配布版です。
+
+この配布版は、上流で確定したProtocol本文やTrigger Indexの意味内容を変更するものではありません。
+
+### 配布物の構成
+
+- `runtime/` — 通常利用に必要な最小の実行用構成
+- `developer_research/` — Coverage、Regression、Retrieval等の開発・検証支援
+- `evidence_provenance/` — 来歴・統合確認用資料
+- `historical_archive/` — 履歴層
+- `release_control/` — 正本選定、受入確認、公開版構築、チェックサム等の配布管理記録
+- `tests/` — 新規環境試験の計画・保存済み実行記録
+
+---
+
+## 証拠範囲
+
+この配布版は、次のことを確立済みとは主張しません。
+
+- Protocol全体の十分性
+- 自然対象におけるProtocol全体の一貫実行
+- 全モデル・全環境での再現性
+- 系統的な弱点が存在しないこと
+- 歴史的な世界初・先行例不存在
+- 普遍的な性能改善
+- 英語入力または英訳した実行用文書での、日本語の正規実行との同等性
+
+保存されている新規環境観察では、準備済みFD-01〜FD-08が、1回の新規Project実行で **8 / 8 PASS** でした。
+
+この結果は、その限定された観察強度を越えて一般化しません。
+
+---
+
+## ライセンスと引用
+
+**作成者 / ライセンサー:** `639228`
+**ライセンス:** Creative Commons Attribution 4.0 International (`CC BY 4.0`)
+**DOI:** 未付与
+**公開リポジトリ:** [https://github.com/639228/structural-reading-protocol](https://github.com/639228/structural-reading-protocol)
+
+ライセンス範囲と表示条件は `LICENSE.md`、推奨引用形式は `CITATION.md` を参照してください。
+
+---
+
+## バージョン
 
 - Protocol: `v8.3.18`
 - Trigger Index: `v0.1`
@@ -114,19 +552,11 @@ These versions are independent:
 - Integration audit: `v0.11`
 - Distribution: `1.0.2`
 
-A downstream Distribution version change does not imply an upstream semantic revision.
+Protocol versionとDistribution versionは別です。
 
-## Release status
+READMEや導入手順だけの変更でProtocol versionを上げることはありません。
 
-The prepared fresh-environment observation set FD-01..FD-08 passed 8 / 8 in one operator-reported fresh Project execution at the bounded strength recorded in `tests/fresh_environment/EXECUTION_RECORD.md`. That result is not generalized to protocol-wide adequacy, natural whole-protocol execution, or cross-model/cross-environment reproducibility.
-
-`tests/fresh_environment/TEST_PLAN.md` is preserved as the original pre-run specification; its historical status line is not the current execution-state owner. Use `EXECUTION_RECORD.md` for the executed result.
-
-The authoritative Creator / Licensor identity and CC BY 4.0 license are integrated into this distribution. The prior LICENSE / CITATION metadata blockers remain closed after stable-release materialization verification.
-
-Distribution `1.0.2` is a documentation-only stable patch over `1.0.1`. It adds a non-canonical Quick Start usage example and records the assigned public repository URL. It does not revise runtime semantics, evidence strength, or canonical source identity. The prior stable releases remain part of release history.
-
-For the consolidated current release-engineering judgment, see `release_control/CURRENT_RELEASE_READINESS_STATE.md`.
+---
 
 ## 謝辞
 
@@ -141,4 +571,3 @@ For the consolidated current release-engineering judgment, see `release_control/
 だが、それらを踏まえてなお、この成果物が、両氏から受け取った教えを一つの起点として形成されたものであることに変わりはない。
 
 これらの教えを受け取る機会を得たことに、深く感謝する。
-

@@ -50,4 +50,4 @@
 - predecessor stable documentation patch: `1.0.1`
 - current stable documentation patch: `1.0.2`
 
-The `1.0.2` patch adds a non-canonical README Quick Start usage example and records the assigned public repository URL. Runtime semantic identity remains Protocol `v8.3.18` + Trigger Index `v0.1`.
+The `1.0.2` patch revises the public entrypoint and ChatGPT loading documentation, adds separate English navigation/loading documents, and records the assigned public repository URL. The first-time recommended ChatGPT setup uses README + INSTALLATION + the canonical runtime pair; the minimum runtime remains Protocol `v8.3.18` + Trigger Index `v0.1`. Runtime semantic identity is unchanged.

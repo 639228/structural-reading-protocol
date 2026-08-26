@@ -1,29 +1,34 @@
 # Changelog
 
-## 1.0.2 — 2026-08-26
+## 1.0.2 — 2026-08-27
 
-### Documentation-only Quick Start / repository metadata patch
+### Public entrypoint / ChatGPT setup / repository metadata patch
 
-- added a `Quick Start` section to `README.md` for file-capable ChatGPT / LLM environments
-- made the example explicitly non-canonical: it does not replace the Protocol or Trigger Index and is not promoted to canonical runtime semantics
-- preserved the minimum runtime pair: Protocol `v8.3.18` + Trigger Index `v0.1`
-- recorded the assigned public repository URL: `https://github.com/639228/structural-reading-protocol`
-- updated `CITATION.md` and `VERSION.md` to reflect the assigned repository
-- added `release_control/WORK_UNIT_08_QUICK_START_AND_REPOSITORY_METADATA_PATCH.md`
+- adopted the public-facing Japanese README prepared from the canonical Protocol's execution-control framing;
+- moved the public entrypoint from package-description-first to problem → purpose → capability → use → installation;
+- documented the distinction between ordinary capability prompts and runtime execution conditions;
+- documented necessary-and-sufficient analysis rather than maximum analysis;
+- added concrete use cases and a detailed ChatGPT Project setup path;
+- standardized Japanese ChatGPT UI wording on `情報源`;
+- made the first-time recommended ChatGPT setup four files: `README.md`, `INSTALLATION.md`, Protocol, and Trigger Index;
+- preserved Protocol + Trigger Index as the two-file minimum canonical runtime pair;
+- added `README.en.md` and `INSTALLATION.en.md` to the distribution package as English navigation/loading documents, not translated canonical runtime artifacts;
+- recorded the assigned public repository URL: `https://github.com/639228/structural-reading-protocol`.
 
 ### Behavioral / semantic boundary
 
-- Protocol `v8.3.18` unchanged
-- Trigger Index `v0.1` unchanged
-- Coverage / Manifest / Retrieval / Regression / Cross / Integration payloads unchanged
-- `INSTALLATION.md`, `LICENSE.md`, metadata authority, and saved fresh execution evidence unchanged
-- the Quick Start is a distribution-side example built from the already preserved runtime-role and non-checklist guidance; it does not create a new runtime operation, Trigger row, field 4/6 rule, or semantic owner
-- new fresh behavioral run: `NO START`; the example does not introduce a new semantic instruction and is bounded by existing loading guidance plus the already observed fresh bootstrap role-separation behavior
+- Protocol `v8.3.18` unchanged;
+- Trigger Index `v0.1` unchanged;
+- Coverage / Manifest / Retrieval / Regression / Cross / Integration payloads unchanged;
+- LICENSE, metadata authority, canonical handoff, SOURCE checksum inventory, and saved fresh execution evidence unchanged;
+- README/INSTALLATION changes are downstream explanation/loading guidance and do not create a new runtime operation, Trigger row, field 4/6 rule, semantic owner, or translated canonical runtime;
+- new fresh behavioral run: `NO START`; the recommended four-file first-time setup matches the already saved fresh-environment test input structure, while the runtime semantic pair remains unchanged.
 
 ### Release state
 
-- Distribution `1.0.2` is the current stable documentation patch over `1.0.1`
-- Protocol remains `v8.3.18`; Trigger Index remains `v0.1`
+- Distribution `1.0.2` is the current stable documentation patch over `1.0.1`;
+- GitHub publication of tag/release `v1.0.2` remains the next hosting step;
+- Protocol remains `v8.3.18`; Trigger Index remains `v0.1`.
 
 ## 1.0.1 — 2026-08-26
 

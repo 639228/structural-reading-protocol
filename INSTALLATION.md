@@ -1,31 +1,66 @@
-# Installation / Runtime Loading
+# 導入方法
 
-This document describes distribution-side loading only. It does not replace or summarize the canonical runtime semantics.
+[English version](INSTALLATION.en.md)
 
-## Required runtime inputs
+この文書は、公開配布版をChatGPT等へ導入する方法を説明します。Protocol本文やTrigger Indexの意味内容を置き換えるものではありません。
 
-The minimum runtime set is:
+## ChatGPTで初めて使う場合の推奨構成
+
+新しいChatGPTプロジェクトを作り、プロジェクトの「情報源」へ次の4ファイルを追加する方法を推奨します。
+
+1. `README.md`
+2. `INSTALLATION.md`
+3. `runtime/構造的読解プロトコル v8.3.18.txt`
+4. `runtime/Trigger_Index_candidate_v0.1.txt`
+
+READMEとINSTALLATIONは配布・導入上の案内文書です。
+
+実際の意味判断と操作内容を所有する正規の実行用ファイルは、次の2ファイルです。
 
 - `runtime/構造的読解プロトコル v8.3.18.txt`
 - `runtime/Trigger_Index_candidate_v0.1.txt`
 
-Both must be available to the target execution environment.
+すでに利用方法を理解している場合、この2ファイルが最小runtime構成です。
 
-## Loading contract
+## ChatGPTでの導入手順
 
-1. Load or attach the protocol body as the normative specification and semantic operation owner.
-2. Load or attach the Trigger Index as the observable-sign → operation dispatch layer.
-3. Keep the two artifacts distinct. Do not merge them into a rewritten substitute specification.
-4. Do not substitute Coverage, Regression, Retrieval, Manifest, audit, or historical materials for the runtime pair.
-5. When the environment permits direct file access, prefer direct access to the canonical runtime files over reconstructing their rules from memory or a secondary summary.
-6. If exact-file verification is required, compare the runtime file hashes with `release_control/SOURCE_SHA256SUMS.txt`.
+1. ChatGPTで新しいプロジェクトを作る。
+2. プロジェクト指示は空欄のままでよい。
+3. プロジェクトの「情報源」へREADME、INSTALLATION、Protocol本文、Trigger Indexの4ファイルを追加する。
+4. プロジェクト内で新しいチャットを始める。
+5. READMEの「ChatGPTでの詳しい導入手順」にある初期指示を、そのチャットの最初に1回送る。
+6. その後、読解対象の文章を貼り付けるか、対象ファイルを添付する。
+7. 普通の日本語で質問する。利用者がProtocolの操作名を指定する必要はない。
+8. 同じチャットを続ける場合、通常は初期指示の再送は不要。
+9. 同じプロジェクト内でも新しいチャットを作った場合は、初期指示を最初にもう一度送る運用を推奨する。
 
-## Environment-specific bootstrap
+## プロジェクト指示を空欄にする理由
 
-No platform-specific installer or system-prompt wrapper is canonicalized in the supplied snapshot. A future distribution-specific bootstrap may be added downstream, but it must preserve the canonical semantic ownership and must not add, remove, strengthen, or weaken runtime rules.
+Protocol本文やTrigger Indexをプロジェクト指示へコピー・要約すると、正本とは別の規則表現が生まれます。
 
-Until such a bootstrap is validated, the portable installation path is direct loading of the two runtime artifacts above.
+基本利用では、正規のファイルを「情報源」から直接参照できる状態を保ち、プロジェクト指示を別の正本置き場として使わない方が、配布物の役割分離を保ちやすくなります。
 
-## Optional verification/research inputs
+これは配布上の導入方法であり、Protocol本文の新しい意味規則ではありません。
 
-The files in `developer_research/` and `evidence_provenance/` are optional for ordinary runtime use. Load them only when the current work requires regression inspection, coverage auditing, retrieval/provenance tracing, or release/deployment validation.
+## 読み込み時に守ること
+
+1. Protocol本文を、意味判断と各操作の内容を定める規範仕様として扱う。
+2. Trigger Indexを、観察可能な徴候から既存操作へ到達する実行時の振り分けとして扱う。
+3. Trigger Indexを固定チェックリストとして扱わない。
+4. 徴候があるだけで操作を自動起動しない。
+5. `NO START`、`NO FIRE`、`STOP`を正規の実行結果として扱う。
+6. Protocol本文とTrigger Indexをまとめ直して別の要約仕様へ置き換えない。
+7. Coverage / Regression / Retrieval / Manifest / 監査資料 / 履歴資料を、実行用正本2ファイルの代わりにしない。
+8. 直接ファイル参照が可能なら、会話記憶や二次要約から再構成するより、正規ファイルを直接参照する。
+
+## 通常利用で追加しなくてよいもの
+
+`developer_research/`、`evidence_provenance/`、`release_control/`、`tests/` のファイルを、通常の読解のために全部「情報源」へ追加する必要はありません。
+
+それらは、回帰試験、被覆監査、来歴確認、公開版検証など、現在の作業が実際に必要とする場合だけ使用します。
+
+## 言語上の注意
+
+正規の実行用文書は日本語です。
+
+英語READMEと英語版導入文書は案内文書であり、英語版Protocolまたは英語版Trigger Indexではありません。英語入力または翻訳した実行用文書による同等の意味上の挙動は、現在の証拠では確立されていません。
