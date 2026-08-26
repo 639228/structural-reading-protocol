@@ -24,7 +24,7 @@ Public repository:
 
 This is the downstream release-state owner prepared for stable documentation patch Distribution `1.0.2`.
 
-It records a concrete Quick Start usage example and the now-assigned repository metadata over verified stable Distribution `1.0.1`.
+It records the adopted public-facing Japanese README, detailed ChatGPT Project loading instructions using Japanese UI terminology, separate English navigation/loading documents, and assigned repository metadata over verified stable Distribution `1.0.1`.
 
 It does not revise canonical Protocol semantics, Trigger runtime semantics, Regression expectations, upstream source selection, or the saved strength of fresh behavioral evidence.
 
@@ -40,36 +40,43 @@ Current Distribution:
 `1.0.2`
 
 Substantive public-document delta:
-- add a non-canonical `Quick Start` to `README.md`;
-- record the assigned public repository URL in README / CITATION / VERSION metadata;
-- preserve Protocol/Trigger ownership, non-checklist behavior, and the existing two-file minimum runtime path.
+- adopt a problem-first public README explaining what the Protocol addresses, what it can do, why to use it, and how to start;
+- make `README.md` the Japanese primary entry point;
+- use ChatGPT's Japanese UI term `情報源` in Japanese setup guidance;
+- recommend four files for first-time ChatGPT use: README, INSTALLATION, Protocol, Trigger;
+- preserve Protocol + Trigger as the minimum canonical runtime pair;
+- add `README.en.md` and `INSTALLATION.en.md` to the actual distribution archive as English navigation/loading documents;
+- state that canonical runtime is Japanese and English/translated runtime equivalence is unestablished;
+- record the assigned repository URL in public metadata.
 
 Unchanged from verified `1.0.1`:
 - runtime Protocol bytes;
 - runtime Trigger bytes;
 - Coverage / Manifest / Retrieval / Regression / Cross / Integration bytes;
-- `INSTALLATION.md`;
 - `LICENSE.md`;
 - public license/citation authority record;
+- canonical handoff / governance / SOURCE SHA-256 inventory;
 - saved fresh-environment execution record and test plan;
-- README acknowledgement wording.
+- acknowledgement proposition and attribution boundary.
 
-## 3. Quick Start / bootstrap boundary
+## 3. ChatGPT / language boundary
 
-The new Quick Start is a downstream explanatory usage example. It is explicitly not a canonical system prompt and does not replace the Protocol or Trigger Index.
+The ChatGPT procedure is downstream explanatory loading guidance, not a canonical system prompt or semantic owner.
 
-It restates the existing runtime-role separation and non-checklist requirements while giving ordinary users a concrete path for attaching the two runtime files and beginning use.
+Project instructions are not promoted to a runtime requirement. Baseline instructions may be left blank; the guide recommends a bounded bootstrap at the start of each new chat.
 
-No platform-specific installer or new semantic owner is created. `INSTALLATION.md` remains unchanged.
+The first-time recommended four-file setup gives the model access to README and INSTALLATION in addition to the canonical runtime pair. README and INSTALLATION remain non-normative distribution documents. The minimum runtime remains the Protocol + Trigger pair.
+
+The canonical runtime language remains Japanese. English documentation is distribution/navigation only. Equivalent English-language input behavior or translated-runtime behavior is not established and is not claimed.
 
 ## 4. Fresh behavioral carry-forward
 
 Saved fresh result:
 `8 / 8 PREPARED FD CASES PASS`
 
-A new behavioral run is `NO START` for `1.0.2`. The Quick Start does not add a new semantic instruction; it exposes an already documented and previously observed bootstrap path more concretely.
+A new behavioral run is `NO START` for this documentation patch. The recommended first-time four-file structure matches the already saved fresh test input structure, and no canonical runtime semantics or dispatch conditions change.
 
-This carry-forward does not establish protocol-wide adequacy, natural whole-protocol execution, hidden dispatch correctness, cross-model/cross-environment reproducibility, absence of systematic weakness, or universal performance improvement.
+This carry-forward does not establish protocol-wide adequacy, natural whole-protocol execution, hidden dispatch correctness, cross-model/cross-environment reproducibility, absence of systematic weakness, universal performance improvement, or language equivalence.
 
 ## 5. Package verification result
 
@@ -79,12 +86,12 @@ Final `1.0.2` package verification:
 Verified:
 - required runtime pair present;
 - canonical/source SHA-256 inventory passes;
-- declared patch delta matches actual byte-changing set;
-- all semantic/support/runtime payloads required to remain unchanged are byte-identical to verified `1.0.1`;
-- `INSTALLATION.md`, LICENSE, authority record, and saved fresh execution evidence are byte-identical to verified `1.0.1`;
-- README Quick Start preserves runtime ownership and explicitly rejects replacement/checklist misuse;
-- package-wide SHA-256 inventory passes after patch materialization;
-- rebuilt tar.gz re-extracts successfully and package-wide checksum verification passes.
+- all preserved semantic/support/runtime payloads are byte-identical to verified `1.0.1`;
+- `README.en.md` and `INSTALLATION.en.md` are present in the actual archive;
+- Japanese and English guidance consistently distinguishes first-time four-file setup from the two-file minimum runtime;
+- package-wide SHA-256 inventory passes after documentation materialization;
+- rebuilt tar.gz re-extracts successfully;
+- no symlinks present.
 
 ## 6. Current release-readiness matrix
 
@@ -92,9 +99,12 @@ Verified:
 | --- | --- | --- |
 | Canonical runtime pair | PASS — Protocol v8.3.18 + Trigger v0.1 | ready |
 | Runtime role separation | PASS | ready |
-| Distribution layering | PASS | ready |
-| Portable loading path | PASS | ready |
-| Quick Start | integrated as non-canonical usage example | PASS |
+| Public problem/purpose explanation | adopted in Japanese primary README | PASS |
+| Detailed ChatGPT Project guide | integrated as non-canonical distribution guidance | PASS |
+| First-time four-file setup | aligned with saved fresh-test input structure | PASS |
+| Minimum two-file runtime | preserved | PASS |
+| English navigation docs | present in package; not runtime translation | PASS |
+| Language-equivalence claim | not established / not claimed | boundary preserved |
 | Canonical/source byte identity | PASS | ready |
 | Package-wide integrity | PASS | ready |
 | Fresh behavioral deployment | EXECUTED — bounded FD-01..FD-08 PASS | ready at saved strength |
@@ -103,38 +113,29 @@ Verified:
 | Repository | `https://github.com/639228/structural-reading-protocol` | assigned |
 | DOI | not yet assigned | not blocker |
 | Semantic defect candidate | none exposed by current downstream work | no semantic patch authorized |
-| Stable Distribution identity | `1.0.2` materialized and verified | PASS |
+| Distribution identity | `1.0.2` materialized and verified | PASS |
 | GitHub publication | `v1.0.2` not yet published at materialization time | pending hosting update |
 
 ## 7. Semantic-change boundary
 
-No current observation authorizes Trigger repair, Protocol semantic revision, a new runtime operation, a new Trigger row, field 4/6 semantic change, Regression expectation change, or Reference Gate repair.
+No current observation authorizes Trigger repair, Protocol semantic revision, a new runtime operation, a new Trigger row, field 4/6 semantic change, Regression expectation change, Reference Gate repair, or translated canonical runtime promotion.
 
 Current semantic defect candidate:
 `NONE EXPOSED`
 
 ## 8. Project-source admission / retirement path
 
-Direct Project-source rediscovery before this patch confirmed `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` as the active current readiness owner at a steady active Project-source inventory of `17 / 25`.
-
-If this revision is admitted as the new Project current readiness owner:
-- direct-rediscover `CURRENT_RELEASE_READINESS_STATE_v1.8.md`;
-- retire `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` one-for-one after admission verification.
-
-Expected steady state after one-for-one replacement:
-`17 / 25`, reserve `8`.
-
-Do not add package-internal Work Unit 08 or checksum files to active Project sources unless a concrete future judgment requires them.
+The current package retains the previously recorded Project-source transition path: `CURRENT_RELEASE_READINESS_STATE_v1.8.md` may replace `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` one-for-one after direct admission verification. No additional package-internal release-control artifact should be admitted merely because this documentation candidate was rebuilt.
 
 ## 9. Stop condition
 
-Quick Start / repository-metadata patch materialization is closed.
+Public entrypoint / ChatGPT loading / language / repository-metadata patch materialization is closed.
 
 Further behavioral testing: `NO START` at current inputs.
 
 Semantic patching: `NO START`.
 
-Next allowed downstream step: publish the already-materialized `1.0.2` bytes to the existing GitHub repository as `v1.0.2`, then record publication state if needed.
+Next allowed downstream step: publish the verified `1.0.2` bytes to the existing GitHub repository as `v1.0.2`, then record publication state if needed.
 
 At current materialization inputs:
 `STOP`

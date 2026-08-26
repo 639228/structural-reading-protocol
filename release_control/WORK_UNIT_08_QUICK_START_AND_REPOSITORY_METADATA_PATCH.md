@@ -1,77 +1,70 @@
-# Work Unit 08 — Quick Start and Repository Metadata Patch
+# Work Unit 08 — Public Entrypoint / ChatGPT Setup / Repository Metadata Patch
 
-Status: `PASS_STABLE_DOCUMENTATION_PATCH_1.0.2_MATERIALIZATION`
+Status: `MATERIALIZED / VERIFIED / PUBLICATION_UPDATE_PENDING`
 
-Date: `2026-08-26`
+Distribution: `1.0.2`
 
-## Required judgment
+Stable predecessor: `1.0.1`
 
-Determine whether a concrete Quick Start can be added for ordinary file-capable ChatGPT / LLM use without creating a new canonical bootstrap or changing runtime semantics, and update the now-assigned public repository metadata.
+Canonical semantic identity:
+- Protocol `v8.3.18`
+- Trigger Index `v0.1`
 
-## Base
+Public repository:
+- `https://github.com/639228/structural-reading-protocol`
 
-Verified stable Distribution: `1.0.1`
+## Purpose
 
-Base archive SHA-256:
-`7b1d0db2711fdc3e0b622d813068072fc86de55d23cebaabb94ee1008038e42d`
+Integrate the public-facing README selected for release, make ChatGPT setup understandable from the Japanese UI, preserve the already tested four-file first-time loading path, add English navigation/loading documents, and record the assigned repository metadata.
 
-Public repository confirmed during publication:
-`https://github.com/639228/structural-reading-protocol`
+This is downstream distribution/documentation work. It does not revise upstream canonical semantics.
 
 ## Distribution delta
 
-Selected Distribution version: `1.0.2`.
-
 User-facing documentation changes:
-- `README.md`: add a non-canonical Quick Start usage example; update Distribution identity and repository URL.
-- `CITATION.md`: record the assigned repository URL and adjust specific-distribution citation guidance.
-- `VERSION.md`: update Distribution identity, predecessor, and repository metadata.
+- `README.md`: adopt the problem-first public entrypoint explaining what execution-control problem the Protocol addresses, what it can do, why it can be useful, concrete uses, and detailed ChatGPT setup;
+- `INSTALLATION.md`: Japanese installation guide using ChatGPT's Japanese UI term `情報源`;
+- `README.en.md`: English distribution/navigation guide; explicitly not a translated canonical runtime;
+- `INSTALLATION.en.md`: English loading guide; explicitly not a translated canonical runtime;
+- first-time recommended ChatGPT Project input: README + INSTALLATION + Protocol + Trigger Index;
+- minimum runtime remains Protocol + Trigger Index;
+- `CITATION.md` / `VERSION.md`: assigned repository metadata retained;
 - `CHANGELOG.md`: record this patch.
 
 Release-control changes:
-- `release_control/CURRENT_RELEASE_READINESS_STATE.md`;
-- `release_control/PROJECT_SOURCE_CAPACITY_LEDGER.md`;
-- add this Work Unit 08;
+- update `release_control/CURRENT_RELEASE_READINESS_STATE.md`;
+- keep `release_control/PROJECT_SOURCE_CAPACITY_LEDGER.md` at its already observed state;
+- update this Work Unit 08;
 - regenerate `release_control/PACKAGE_SHA256SUMS.txt`.
 
-Everything else must remain byte-identical to verified `1.0.1`.
+## Runtime / semantic boundary
 
-## Quick Start boundary
+The public documents explain existing canonical behavior. They do not own or revise it.
 
-The Quick Start is an explanatory distribution-side example for a file-capable model environment. It:
-- preserves Protocol as normative / semantic owner;
-- preserves Trigger Index as runtime dispatch;
-- explicitly rejects Trigger-as-replacement and fixed-checklist use;
-- points ordinary users to the existing two-file runtime pair;
-- does not create a canonical platform-specific installer or system-prompt owner.
+The canonical runtime pair remains:
+- `runtime/構造的読解プロトコル v8.3.18.txt`;
+- `runtime/Trigger_Index_candidate_v0.1.txt`.
 
-`INSTALLATION.md` remains the distribution-side loading contract and is unchanged.
+The Trigger Index remains runtime dispatch rather than a fixed checklist. Candidate existence is not START. Valid `NO START`, `NO FIRE`, and `STOP` outcomes are preserved.
+
+The English documents are navigation/loading documents only. No English canonical Protocol or Trigger is created or claimed.
 
 ## Fresh behavioral judgment
 
 New run: `NO START`.
 
-Reason: the Quick Start does not add a new semantic rule. Its role-separation and non-checklist instructions are already present in the public documentation, and the saved fresh execution already contains a positive bootstrap role-separation observation plus FD-02 non-checklist behavior. The current patch makes that existing use path more explicit for users rather than changing the required runtime behavior.
+Reason: the revised first-time recommendation uses the same four public inputs already used by the saved fresh-environment deployment test (README, INSTALLATION, Protocol, Trigger), while the canonical runtime pair and bootstrap role separation are unchanged in semantic ownership. The new public explanation does not add a semantic operation or change Trigger necessity/route/stop conditions.
 
-This does not upgrade the saved evidence strength.
-
-## Semantic boundary
-
-No Protocol revision.
-No Trigger revision.
-No Regression expectation revision.
-No new runtime operation.
-No new Trigger row.
-No field 4/6 change.
-No Reference Gate work.
+The saved evidence remains bounded at its recorded strength.
 
 ## Verification requirement
 
 Before closure:
-- exact declared delta must match actual changed paths;
-- all preserved payloads must be byte-identical to `1.0.1`;
-- SOURCE SHA-256 inventory must PASS;
-- PACKAGE SHA-256 inventory must PASS;
+- runtime Protocol and Trigger hashes must match `SOURCE_SHA256SUMS.txt`;
+- canonical support payloads must remain byte-identical to verified `1.0.1`;
+- new English documents must actually be present in the archive;
+- Japanese/English loading guidance must agree on first-time four-file setup vs two-file minimum runtime;
+- package-wide SHA-256 inventory must PASS;
 - rebuilt archive must re-extract successfully;
 - no symlinks may be present.
 
@@ -79,4 +72,4 @@ Before closure:
 
 `PASS_STABLE_DOCUMENTATION_PATCH_1.0.2_MATERIALIZATION`
 
-The Quick Start and repository metadata are integrated at downstream documentation strength only. No semantic or evidence-strength claim is upgraded.
+The public-entrypoint and loading-documentation changes are integrated at downstream distribution strength only. No canonical semantic or evidence-strength claim is upgraded.
