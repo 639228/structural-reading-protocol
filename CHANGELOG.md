@@ -20,8 +20,11 @@
 
 ### Release state
 
-- Distribution `1.0.3` is the stable README quick-access/navigation documentation patch over `1.0.2`;
-- GitHub publication of tag/release `v1.0.3` is the remaining hosting step;
+- Distribution `1.0.3` is the published stable README quick-access/navigation documentation patch over `1.0.2`;
+- GitHub tag/release `v1.0.3` is published and verified;
+- `v1.0.3` is the current Latest Release;
+- `v1.0.3` tag points to commit `2f86de4b966e7ee0d895e429db84bfc092cc5cfa`;
+- published archive SHA-256 is `7a097b568b79a2df9b922223a40bff0028f44076afcfd6414ecd0fe083d0fc31`;
 - Protocol remains `v8.3.18`; Trigger Index remains `v0.1`.
 
 ## 1.0.2 — 2026-08-27
