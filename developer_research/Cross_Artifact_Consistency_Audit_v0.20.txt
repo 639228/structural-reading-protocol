@@ -1,0 +1,169 @@
+Cross_Artifact_Consistency_Audit_v0.20
+
+STATUS: CANDIDATE RARITY→FIRSTNESS NATURAL EVALUATION THREE-TARGET EVIDENCE-STATE PROJECTION COMPLETE-REFRESH AUDIT / LOCAL
+
+Normative source:
+構造的読解プロトコル v8.3.18
+
+Development predecessor:
+logical Trigger_Index_seed_checkpoint_272.txt
+(byte-preserved in checkpoint_archive_ultravolume_001_272.txt and successor lineage)
+
+Refresh necessity source:
+Rarity_Firstness_Natural_Evaluation_Projection_Refresh_Necessity_Audit_v0.1.txt
+bytes=13362
+sha256=f93d0846c890e904917ecefd29606d571b2e312227995ae9dfe2866733d55b42
+result=PASS_RARITY_FIRSTNESS_NATURAL_EVALUATION_PROJECTION_REFRESH_NECESSITY Project-persisted at bounded projection-necessity strength.
+
+Capacity repair source:
+Project_Source_Projection_Predecessor_Superarchive_v0.6.txt
+bytes=2199074
+sha256=ccae93a69ccd233c93168093af238ec72de61aa088d757f9e918f6523971d131
+Five selected predecessor payloads recover exactly once at original bytes/SHA-256.
+Physical-only consolidation; semantic retirement none; provenance retirement none.
+
+REFRESH SET
+
+Coverage_Map_candidate_v0.8.txt
+bytes=39234
+sha256=16015e77b8346049263327c6e16fcaae8e82e09ef1f8c56dfd5f30661076b14d
+
+Materialization_Source_Manifest_v0.8.txt
+bytes=50320
+sha256=d7b696f455323fce9781a51aac420daf6b335f307df957a71f4f655bc3823796
+
+Artifact_Retrieval_Index_candidate_v1.9.txt
+bytes=268496
+sha256=49814355282860a5d0e43ae9933df0ac0d86ada973bc69378f9e1ce555f4d035
+
+Unchanged semantic / regression / provenance bases:
+Trigger_Index_candidate_v0.1.txt sha256=78f37f241d092c93490301d73396c102f0c248df3f9c48d88302db1e99147146
+Regression_Fixtures_candidate_v1.2.txt sha256=ec7ded49e59542006a7546da5d76ec6dbfd30e3e3eb4aea9659d0fa6a14be43c
+Post_Materialization_Composition_Delta_Integration_Audit_v0.11.txt sha256=2d20e6952605d3d861fb79d96e7133e530b43ffa745ff36dd335f2c9087e21c9
+Predecessor Cross_Artifact_Consistency_Audit_v0.19.txt sha256=21168ef92fbec0c5d15798b7905f8d7869df00d2396eceefca98943c1eb0a164
+
+INTENDED EVIDENCE-STATE DELTAS ONLY
+
+0-2:
+retain the earlier Slayers natural replay statement and add one Project-persisted natural evaluation replay identifying explicit user-P → stronger/different-axis Q proposition-strengthening/substitution as a current 0-2 prevention point; hidden historical dispatch unavailable; standalone natural 0-2 execution remains unconfirmed; failure is not confirmed; no row defect discovered.
+
+E12:
+one Project-persisted natural evaluation replay identifies an output-level historical-firstness/no-prior-art → concrete-rarity cross-axis/result-transfer correction condition; hidden historical E12 dispatch unavailable; standalone natural E12 execution remains unconfirmed; failure is not confirmed; no row defect discovered.
+
+E16-A:
+one Project-persisted natural evaluation failure replay identifies E16-A as a direct pre-output prevention/detection point for actual-P → stronger/different-axis-Q drift and related result transfer; historical audit execution/nonexecution remains unconfirmed; standalone natural E16-A execution remains unconfirmed; failure is not confirmed; no row defect discovered.
+
+No natural-state delta for 0-1 / 0-4 / 0-7 / 0-13 family / 0-17 / R5-E or any other target.
+No structural delta for E13 or any Coverage UNIT.
+No systematic natural dispatch weakness, Trigger defect, or protocol-wide adequacy/inadequacy is inferred.
+
+CHECKS
+V01 Trigger hash unchanged: PASS
+V02 Regression v1.2 hash unchanged: PASS
+V03 Integration v0.11 hash unchanged: PASS
+V04 necessity audit hash exact: PASS
+V05 carrier v0.6 preserves Project_Source_Projection_Predecessor_Superarchive_v0.5.txt exactly once: PASS
+V06 carrier v0.6 preserves Coverage_Map_candidate_v0.7.txt exactly once: PASS
+V07 carrier v0.6 preserves Materialization_Source_Manifest_v0.7.txt exactly once: PASS
+V08 carrier v0.6 preserves Artifact_Retrieval_Index_candidate_v1.8.txt exactly once: PASS
+V09 carrier v0.6 preserves Cross_Artifact_Consistency_Audit_v0.19.txt exactly once: PASS
+V10 carrier physical-only declaration present: PASS
+V11 Coverage target count 61: PASS
+V12 Coverage unit count 19: PASS
+V13 Manifest row count 61: PASS
+V14 Coverage changed blocks exactly 0-2/E12/E16-A: PASS
+V15 Manifest changed rows exactly 0-2/E12/E16-A: PASS
+V16 Coverage 0-1 byte-identical: PASS
+V17 Coverage 0-4 byte-identical: PASS
+V18 Coverage 0-7 byte-identical: PASS
+V19 all 19 Coverage UNIT bodies byte-identical: PASS
+V20 58 non-delta Coverage TARGET bodies byte-identical: PASS
+V21 58 non-delta Manifest ROW bodies byte-identical: PASS
+V22 Coverage 0-2 new natural state exact: PASS
+V23 Coverage E12 new natural state exact: PASS
+V24 Coverage E16-A new natural state exact: PASS
+V25 Manifest 0-2 new natural state exact: PASS
+V26 Manifest E12 new natural state exact: PASS
+V27 Manifest E16-A new natural state exact: PASS
+V28 Retrieval title v1.9: PASS
+V29 Retrieval Trigger rows 61: PASS
+V30 Retrieval canonical fields 366: PASS
+V31 Retrieval Coverage TARGET pointers 61: PASS
+V32 Retrieval Coverage UNIT pointers 19: PASS
+V33 Retrieval REG blocks 79: PASS
+V34 Retrieval RF pointers 1875: PASS
+V35 Retrieval Manifest pointers 61: PASS
+V36 Retrieval Coverage hash points v0.8: PASS
+V37 Retrieval Manifest hash points v0.8: PASS
+V38 Retrieval Regression hash unchanged: PASS
+V39 Retrieval immediate predecessor v1.8 recorded: PASS
+V40 Coverage pointer dereference failure zero: PASS
+V41 Manifest pointer dereference failure zero: PASS
+V42 Regression/RF index section byte-identical to v1.8: PASS
+V43 RF IDs unique 1875: PASS
+V44 No Trigger field4/6 rewrite: PASS
+V45 Reference Gate no-fire: PASS
+V46 No new Trigger row: PASS
+V47 No new Coverage target: PASS
+V48 No new runtime operation: PASS
+V49 No Schema change: PASS
+V50 Regression remains artificial / no natural conversion: PASS
+V51 Full 1875 semantic replay not performed: PASS
+V52 Current runtime Coverage gap none discovered by refresh: PASS
+V53 No systematic natural dispatch weakness established: PASS
+V54 No Trigger repair authorization: PASS
+V55 Preferred lookup remains v1.8 promoted pending successor discovery: PASS
+V56 Complete refresh set contains four artifacts: PASS
+V57 No partial promotion claim in local Cross: PASS
+V58 0-1 natural state unchanged: PASS
+V59 E13 UNIT structural projection unchanged: PASS
+V60 0-13 local-question natural state unchanged: PASS
+V61 0-13 next-step natural state unchanged: PASS
+V62 0-17 natural state unchanged: PASS
+V63 R5-E natural state unchanged: PASS
+V64 No natural whole-protocol claim: PASS
+V65 Exact projection delta remains three targets only: PASS
+V66 Projection refresh does not alter Trigger semantics: PASS
+V67 Projection refresh does not alter Regression semantics: PASS
+V68 Necessity result Project-persisted before refresh: PASS
+
+
+result: 68 / 68 PASS.
+
+RETRIEVAL CONTINUITY
+
+Trigger rows: 61 / 61.
+Canonical Trigger fields: 366 / 366.
+Coverage TARGET pointers: 61 / 61.
+Coverage UNIT pointers: 19 / 19.
+Manifest row pointers: 61 / 61.
+Regression blocks: 79 / 79.
+RF IDs: 1,875 / 1,875 indexed and unique.
+Coverage pointer dereference failure: 0.
+Manifest pointer dereference failure: 0.
+Regression/RF index section: byte-identical to Retrieval v1.8.
+
+REFERENCE GATE
+
+not used.
+No field4 / field6 creation or rewrite.
+No new Trigger row.
+No new Coverage target.
+No new runtime operation.
+No Schema change.
+
+CURRENT LOCAL JUDGMENT
+
+PASS_RARITY_FIRSTNESS_NATURAL_EVALUATION_PROJECTION_COMPLETE_REFRESH_LOCAL
+
+The current-state projection staleness identified after Project persistence of the rarity→firstness natural evaluation replay is locally repaired as one complete artifact set:
+Coverage v0.8 / Manifest v0.8 / Retrieval v1.9 / Cross v0.20.
+
+This is artifact projection / retrieval consistency evidence only.
+It does not upgrade natural evidence beyond the saved bounded replay strength.
+
+PROJECT-SOURCE BOUNDARY
+
+The complete successor set is local and Project persistence is pending.
+Do not partially promote.
+Project-persisted preferred lookup remains PREFERRED_CURRENT_LOOKUP_V1.8_PROJECTION_REFRESH_PROMOTED until subsequent direct current-source rediscovery and a separate source-selection judgment.

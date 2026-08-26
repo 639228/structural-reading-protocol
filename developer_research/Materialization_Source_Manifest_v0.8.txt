@@ -1,0 +1,920 @@
+Materialization_Source_Manifest_v0.8
+STATUS: CANDIDATE / CURRENT-STATE PROJECTION SUPPORT / RARITY→FIRSTNESS NATURAL EVALUATION THREE-TARGET EVIDENCE-STATE REFRESH
+Normative source: 構造的読解プロトコル v8.3.18
+Current development source: logical Trigger_Index_seed_checkpoint_272.txt / Project-persisted rarity→firstness natural-evaluation three-target projection-refresh necessity
+This manifest is provenance support, not a Trigger Index runtime schema. Historical checkpoints remain immutable. Search-hit recency is not canonicality.
+Resolution rule: latest adopted state through checkpoint lineage/changelog → authoritative entry source → exact current field text. Superseded gap states remain history only.
+
+=== MATERIALIZED TRIGGER ROW SOURCES ===
+ROW: 0-1
+  heading: 0-1 参照対象を固定する
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_38
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 23a5bde6ed6f134d9d3ed04d90a78686abb3896d773f449d1185260aca9536f8
+  field4_6_reference_gate_source: checkpoint_38
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: 0-2
+  heading: 0-2 重要語・命題・判断種別・要求確度を保存する
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_40
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 43cfb61ed5389e6fafd31ed3381715885b15a28dca1187e3642dd1646ebf1973
+  field4_6_reference_gate_source: checkpoint_40
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted natural literary/evaluation failure replay identifies 0-2 as the earliest current-Trigger prevention point for proposition/judgment-type separation; additionally one Project-persisted natural evaluation replay identifies explicit user-P → stronger/different-axis Q proposition-strengthening/substitution as a current 0-2 prevention point; hidden historical dispatch trace unavailable; standalone natural 0-2 execution remains unconfirmed; failure is not confirmed; no row defect discovered
+
+ROW: 0-4
+  heading: 0-4 証拠状態と結論強度を一致させる
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_44
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 29fc65fa6d2eda8e1d990ad806e7d4b445c163b9c96763de5955652a734c46eb
+  field4_6_reference_gate_source: checkpoint_44
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted natural literary/evaluation failure replay contains directly evidenced overclaim + underclaim matching 0-4 evidence/strength alignment failure; hidden dispatch trace unavailable; standalone natural 0-4 execution remains unconfirmed; no row defect discovered
+
+ROW: 0-5 competitive-hypothesis
+  heading: 0-5 競合仮説と条件変更 — competitive-hypothesis target
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_46
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: efbdc7c251b5fc7134dfc201f50253bc7b4b166d88b629b1421f4a9b8bba532f
+  field4_6_reference_gate_source: checkpoint_46
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: 0-6
+  heading: 0-6 参照不能時の共通処理
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_48
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 6c53637553162ce1e096e20ce092ae25f1a6549ab1961fae5f4f3952d045e73a
+  field4_6_reference_gate_source: checkpoint_48
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: 0-7
+  heading: 0-7 確認・推論・情報状態を分ける
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_50
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 01a6de06a68943a5300786bad316b01cdd7c0e4c901b2016d817d4fa808c3131
+  field4_6_reference_gate_source: checkpoint_50
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one live Project necessity-boundary no-start observation positive from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; additionally one Project-persisted natural literary failure replay identifies 0-7 as a direct provenance/state-separation correction owner; hidden Slayers dispatch trace unavailable; standalone natural 0-7 operation execution remains unconfirmed; no row defect discovered
+
+ROW: 0-8
+  heading: 0-8 参照対象と代理物を混同しない
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_52
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 2ba5d762b3bed00a9c88784bb722984dbe238b09c284dc71f3addc38eec67d4d
+  field4_6_reference_gate_source: checkpoint_52
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: 0-9
+  heading: 0-9 履歴を上書きしない
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_54
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: cf4ca5292ccfc105b1b87dc229e6da2926279ebaaabf8392cbeb05a9f710f006
+  field4_6_reference_gate_source: checkpoint_54
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: successful non-retroactive discipline application inside one live R18 Project update from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; standalone natural 0-9 operation execution remains unconfirmed
+
+ROW: 0-13 全文精読
+  heading: 0-13 全文精読
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_60
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 84e0a1f57621bde2af44c63a7deccfb8bdde57e0c8dd6f3d38a3c15e88381502
+  field4_6_reference_gate_source: checkpoint_60
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: 0-13 局所問い形成
+  heading: 0-13 局所問い形成
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_61
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 03e0cd923633769b91ed88f40f3d72b8f8b81dea4a6f73ffa86a9d96b21136ce
+  field4_6_reference_gate_source: checkpoint_61
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted natural serial-literary bounded-inquiry replay identifies a post-judgment no-fire/prevention point under repeated continuation pressure; hidden historical dispatch trace unavailable; successful standalone natural execution remains unconfirmed; failure is not confirmed; no row defect discovered
+
+ROW: 0-13 問い更新
+  heading: 0-13 問い更新
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.2
+  source: checkpoint_13 base + checkpoint_14 v0.2 fields 1/3 patch
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: acb0d74909a35f8477f0fec9e66ac310a9ce86c6e5629cc8a7bc6189abeb2e00
+  field4_6_reference_gate_source: checkpoint_13 (field 4/6 base Reference Gate); cp14 patch changes only fields 1/3
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: 0-13 次手選択
+  heading: 0-13 次手選択
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_59
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: ad2b2d2b70c55682e43b5ece779ee36db1ec46129b2249ec0eac88e5a64424ff
+  field4_6_reference_gate_source: checkpoint_59
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: existing natural Project operation occurrence positive; additionally one Project-persisted natural serial-literary bounded-inquiry replay identifies a post-judgment no-start/prevention point under repeated continuation pressure; hidden historical dispatch trace unavailable; successful natural literary execution remains unconfirmed; failure is not confirmed; no row defect discovered
+
+ROW: 0-15 protocol transport block
+  heading: 0-15 プロトコル本文の再参照と運搬 — protocol transport block
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_64
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 05a85c52b9892ef92ed92b58eea9dfad141d6c82b0d7648ae29d96e2d4bfa647
+  field4_6_reference_gate_source: checkpoint_64
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one live Project no-start purpose-separation observation positive from Project_Ledger_Persistence_Natural_Execution_Pilot_v0.1: normative protocol and required R17 / 0-17 procedures were directly accessible, so no separate 0-15 start was necessary; standalone natural 0-15 operation execution remains unconfirmed
+
+ROW: 0-16
+  heading: 0-16 量化・全称・頻度・不存在命題の検証
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.3
+  source: checkpoint_66
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 38ef9a697054ec862d57e96941dd36516d42d3194c118bda2486aea55ef43ab7
+  field4_6_reference_gate_source: checkpoint_66
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: isolated Project target instantiation / operation occurrence positive 1件 at saved historical strength; formal chain remains unconfirmed
+
+ROW: 0-17
+  heading: 0-17 監査ルート記録
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.3
+  source: checkpoint_68
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: fee39cc34525f7f830c84f5238ab8178043859b56a302ba3aa909e212839177a
+  field4_6_reference_gate_source: checkpoint_68
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: three bounded monitored events positive: (1) R18 direct full-start registration → R18 solid-audit delivery → finite closure from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; (2) R17 direct full-start registration → R17 solid-audit delivery → finite closure from Project_Ledger_Persistence_Natural_Execution_Pilot_v0.1; (3) R5-E direct full-start registration → R5-E solid-audit delivery → finite closure in one bounded natural literary/external-source work unit from Multi_Quotation_Source_Relational_Otherness_Natural_Replay_v0.1; general natural adequacy across operations remains unconfirmed; no automatic all-operation audit adequacy claim
+
+ROW: 0-18 reference checking
+  heading: 0-18 参照照合 — reference checking
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_70
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 95b281796f735ee59c6fe4cd06efdb28a1aae981ed50b768e365f4bd6ecbf07f
+  field4_6_reference_gate_source: checkpoint_70
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R1
+  heading: R1 発見を分類より先に置く
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_73
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: b22063c4be37bdbd6ce9f1f1a40a6dbaf819bbb1c5b4b4aabbacf99e17b49975
+  field4_6_reference_gate_source: checkpoint_73
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R2
+  heading: R2 内在化と外在化
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_75
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 7bb08e7178341c19390eecd9dfadfca6c25b76f2e2a4d1fe8859655fb270e54f
+  field4_6_reference_gate_source: checkpoint_75
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R3
+  heading: R3 未確定・競合・多重・矛盾を潰さない
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_77
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 051677d9cdcaffe9816a36c56bb9471a55e0a67cb02dc94af9e320e659ebd59f
+  field4_6_reference_gate_source: checkpoint_77
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R4
+  heading: R4 連載では実際の過去本文へ戻る
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_79
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 7d27811cec592fcb81dace18527a22b46616428d755782725a70ae73c611ce82
+  field4_6_reference_gate_source: checkpoint_79
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R5-A
+  heading: R5-A 引用・出典探索
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_81
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 825c6d554f56b8499243152f3c999d234a1c9ab52daa4521c5e69bf7823c7715
+  field4_6_reference_gate_source: checkpoint_81
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted natural serial literary/evaluation failure replay identifies a later R5-A direct-full prevention point after necessity renewal, while required source exploration is absent in the reported trajectory; hidden historical dispatch trace unavailable; standalone successful natural R5-A execution remains unconfirmed; no row defect discovered
+
+ROW: R5-B
+  heading: R5-B 話者と再所有
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_82
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 62eb604beb8d9018934d6e18f7b41f91368b548f05a3ef4a2f0ac4de88db4c51
+  field4_6_reference_gate_source: checkpoint_82
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R5-C
+  heading: R5-C 出所・媒体・伝達経路
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_83
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 34e55a9f15ad4bb6b9ea7f0b7710610a64789534539d124d6f03ac7f66449384
+  field4_6_reference_gate_source: checkpoint_83
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R5-D
+  heading: R5-D 概念・研究史・実験系譜探索
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_84
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: fcc00cdc869c511d1f7ce924c2f6717292cd250c143799035e2ee6f148b0cbee
+  field4_6_reference_gate_source: checkpoint_84
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R5-E
+  heading: R5-E 引用差分の横断統合
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_85
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: e6c0a7d67952578ed7167b2cfee32a544d0687e7b3ec9af2122a8da25e37b638
+  field4_6_reference_gate_source: checkpoint_85
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted bounded natural literary/external-source R5-E direct-full execution positive from Multi_Quotation_Source_Relational_Otherness_Natural_Replay_v0.1: start after multiple independently fixed local source/current differences, local-strength-preserving scope-limited cross-case integration, and R5-E solid-audit finite closure; general natural R5-E adequacy remains unconfirmed; historical R5-E execution/nonexecution and failure remain unconfirmed; no row defect discovered
+
+ROW: R6
+  heading: R6 語り・焦点化・外在的位置
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_87
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 535ba2722497488fe2b78967b46281d9ee78641b579f0fa9484d2ad95002e6d3
+  field4_6_reference_gate_source: checkpoint_87
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R7
+  heading: R7 身体と他者の声
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_89
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: c59729eb827e2de80a0e60361a4e6ab9dfc558ec33e99aaedfe4b93675315929
+  field4_6_reference_gate_source: checkpoint_89
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R8
+  heading: R8 対立・選択・未来拘束
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_91
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 7bf21675d12a413ac542dd14057897317140767d18310a7c0e7b51279024560e
+  field4_6_reference_gate_source: checkpoint_91
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R9
+  heading: R9 リズム――予測可能な未来
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_93
+  physical_source: checkpoint_archive_volume_061_093.txt
+  row_payload_sha256: 82439a897010bce3255ee5d4a4f84eedb617fac1a0e9bcd2c9f3577f2917c17b
+  field4_6_reference_gate_source: checkpoint_93
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R10
+  heading: R10 韻律・表記・タイトル・モチーフ・多重意味状態
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_95
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: fbef704f659f8169d4cd42da892d97714c85caf9654a01212d7c4a2c6a7c1587
+  field4_6_reference_gate_source: checkpoint_95
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R11
+  heading: R11 理論と具体的作動検査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_97
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 372b277806057a9e8a285627aed6e78f9fcc0b31c112231c5730ab6f0e5f5895
+  field4_6_reference_gate_source: checkpoint_97
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R12
+  heading: R12 発話の資格と真正性
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_99
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: b2ef11651207ed62c92b997e96d0114dcadb714a9564e9dcff7b416287143119
+  field4_6_reference_gate_source: checkpoint_99
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R13
+  heading: R13 未成立・予測・要求
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_101
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 349fbd7bd04b0ae9cd2b4dc8d82fdf94b0352d81401526d27aa71699631057b4
+  field4_6_reference_gate_source: checkpoint_101
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R14
+  heading: R14 限定的代替可能性・除去・復元
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_103
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: e5fd78f52da3b781d198ef019612f82d11d89a734fadb8b3cbb7a257629da492
+  field4_6_reference_gate_source: checkpoint_103
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R15-A
+  heading: R15-A 解釈仮説の強度
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_105
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 4b1c79dd17bdb875ce76f2e53643c035714a58b1f0592b6f24d4dce01d4c55e6
+  field4_6_reference_gate_source: checkpoint_105
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R15-B
+  heading: R15-B 残差再統合とカテゴリー横断同一性検査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_107
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 41cddfefc098c7d05f6c64958a1906f96f7f154141e4d94c4e0043ac9137f223
+  field4_6_reference_gate_source: checkpoint_107
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R15-C
+  heading: R15-C 能動的探究――問いの履歴・統合と研究命題
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_25
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 115ac23033d8d6bc2b47aade562313969dd407d53a9864b674058e66faf5817b
+  field4_6_reference_gate_source: checkpoint_25
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R17
+  heading: R17 台帳
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.2
+  source: checkpoint_20 base + checkpoint_21 v0.2 fields 1/3 patch; checkpoint_110 current-standard confirmation
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: 0dd252617b0a72a471bcc6f6c9d3a4a9a50ec21c568ce8ddfc8637ac29002ff3
+  field4_6_reference_gate_source: checkpoint_20 (field 4/6 base Reference Gate); cp21 patch changes only fields 1/3
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one live Project ledger/persistence direct full-start positive with preservation/retrieval discrimination positive at that Project state from Project_Ledger_Persistence_Natural_Execution_Pilot_v0.1; general natural adequacy across preservation classes remains unconfirmed
+
+ROW: R18
+  heading: R18 更新
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.2
+  source: checkpoint_17 base + checkpoint_32 v0.2 field 3 patch + checkpoint_34 branch reconciliation; checkpoint_111 current-standard confirmation
+  physical_source: checkpoint_archive_volume_001_060.txt
+  row_payload_sha256: ee9514794bcf5cf78d0cc787d67503d2fbae0e0daf4d6876b3ee5b803956abd3
+  field4_6_reference_gate_source: checkpoint_17 (field 4/6 base Reference Gate); cp32 patch changes only field 3
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one live Project persistence-state update direct full-start positive with S1→E→S2 non-retroactive update preservation from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; additionally, one live R17-pilot no-start purpose-separation observation confirms that R17 storage/retrieval does not itself create a second R18 update start; general natural adequacy across update classes remains unconfirmed
+
+ROW: R19
+  heading: R19 他席による前提・手続き外在化検査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.3
+  source: checkpoint_113
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 88aad91d0791776b767fc2251341af9949b5731af392c2bb386ac95fdf6c9254
+  field4_6_reference_gate_source: checkpoint_113
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: Project externalization/candidate-recheck history positive at saved legacy/workflow-confounded strength; unconfounded necessity proof unconfirmed
+
+ROW: R20-A
+  heading: R20-A 常時監査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_115
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: f78479f5661f88af1cf63c414278aed513f574f5d59dc4f669dbf78c5cfa21da
+  field4_6_reference_gate_source: checkpoint_115
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R20-C
+  heading: R20-C 未起動必要操作監査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_116
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 549cd5fd763217bd78ea3d9cca4838af87f4443dbd2f139287b98c4f97bb540c
+  field4_6_reference_gate_source: checkpoint_116
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: R21
+  heading: R21 第一層出力
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_118
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 8afba589f27bddc0a7cac908766ab9612c352bf9fa5f103173ac5f5c2746578b
+  field4_6_reference_gate_source: checkpoint_118
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E0
+  heading: E0 起動条件
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_120
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: f5843cedb61562a17c42cbbffaa7cbada3f1ab0a66ae8f3563b635b309c3824d
+  field4_6_reference_gate_source: checkpoint_120
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E1 / I2 shared
+  heading: E1 第一層へ戻る / I2 第二層から第一層へ戻る条件 — shared target
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_122
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: 1359494d938a50e9a89741d436207fbc079bcfe5322ad53b97728a2933eff42f
+  field4_6_reference_gate_source: checkpoint_122
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E2
+  heading: E2 対象と世評を切断する
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_124
+  physical_source: checkpoint_archive_volume_094_124.txt
+  row_payload_sha256: b266a8f38dd14edd150720c8064311d9cb6c9efaaf05797e8b2f91e423bb2439
+  field4_6_reference_gate_source: checkpoint_124
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E3
+  heading: E3 表面的複雑性と構造的複雑性
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_126
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: e1b80369858eaa304e17331f0a8d38ca4717ed8211405f634a80ebe8d32c1dae
+  field4_6_reference_gate_source: checkpoint_126
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E4
+  heading: E4 圧縮テスト
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_128
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: bf50748d2f47d5ee4e07c51b28acd885bc26112a4574281409d21eaf8405e4bf
+  field4_6_reference_gate_source: checkpoint_128
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E5
+  heading: E5 非自明な帰結と構造密度
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_130
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 3b4afe83e64573c256665ed6ff744ef8f7103338c78392e69c9daae9d12487ae
+  field4_6_reference_gate_source: checkpoint_130
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E6
+  heading: E6 反事実感度と変数操作
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_132
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 9fa5336ef78f619a446576c09d7d0cc1a3213c45c40a2106baa47432577125a9
+  field4_6_reference_gate_source: checkpoint_132
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E7
+  heading: E7 宣言と実演
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_134
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: be2d93e0bb27993b5ecbcb4ca6a609698480244c15e0f7ea6c2aa3f29f758e50
+  field4_6_reference_gate_source: checkpoint_134
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E8
+  heading: E8 難解さと明晰さ
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_136
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 290b8703074daf63f884198fe2c8d83570ae151703479672e6e72e50a1019c2a
+  field4_6_reference_gate_source: checkpoint_136
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E9
+  heading: E9 独創性・新規性・先取性・知体系間接続
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_138
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: b432731e171623cd67a7f22abf2040a89f65d4c9b87b467b645f559660069d30
+  field4_6_reference_gate_source: checkpoint_138
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E10
+  heading: E10 知的外観と欺瞞機能
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_140
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: c4c3fec68417dd0403ed034305512630277ac98aa9921ba63542a41834610cf8
+  field4_6_reference_gate_source: checkpoint_140
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E11
+  heading: E11 最強の反証
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_142
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 58cde2d304065e0a7805033920c95a6033b2cb48eaa350777f9cef302446af9e
+  field4_6_reference_gate_source: checkpoint_142
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E12
+  heading: E12 評価軸を移動して結論を保存しない
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_144
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 92d23a26daf7ef3f7e82512d826034c07582ccf731df5a95e37aeb76997a89fc
+  field4_6_reference_gate_source: checkpoint_144
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted natural evaluation replay identifies an output-level historical-firstness/no-prior-art → concrete-rarity cross-axis/result-transfer correction condition; hidden historical E12 dispatch trace unavailable; standalone natural E12 execution remains unconfirmed; failure is not confirmed; no row defect discovered
+
+ROW: E15
+  heading: E15 知的成果物の四条件
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_148
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 26f4f9af4af2cfd9eb4701d5ad759e705b110361b0933f50a87e042dbf02026f
+  field4_6_reference_gate_source: checkpoint_148
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E16-A
+  heading: E16-A 常時評価監査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_150
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: a8041998291607f9e323ef9643192180dda8683f6473e9c143c36b771b094ac3
+  field4_6_reference_gate_source: checkpoint_150
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: one Project-persisted natural evaluation failure replay identifies E16-A as a direct pre-output prevention/detection point for actual-P → stronger/different-axis-Q drift and related result transfer; historical audit execution/nonexecution remains unconfirmed; standalone natural E16-A execution remains unconfirmed; failure is not confirmed; no row defect discovered
+
+ROW: E16-C
+  heading: E16-C 未実行必要評価操作監査
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_151
+  physical_source: checkpoint_archive_volume_125_151.txt
+  row_payload_sha256: 7d281473ca84c5ee87da235ba9ecacc639dd45b7ab684c48505ee2b330884fd3
+  field4_6_reference_gate_source: checkpoint_151
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: E17
+  heading: E17 評価出力
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_153
+  physical_source: Trigger_Index_seed_checkpoint_153.txt
+  row_payload_sha256: 47dd391084074d6642bd8264569ae43c888dd41fd9ecf8466293fdd7de5c639a
+  field4_6_reference_gate_source: checkpoint_153
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+ROW: I1
+  heading: I1 第一層から第二層へ渡してよいもの
+  target_status: standalone-positive / current materialized runtime target
+  entry: v0.1
+  source: checkpoint_155
+  physical_source: Trigger_Index_seed_checkpoint_155.txt
+  row_payload_sha256: 7ae83b9d9fba53445ce78171ea6d1a2467a2fe9fefd5f6456c04cd8a040f8eef
+  field4_6_reference_gate_source: checkpoint_155
+  evidence: current tested-path limited artificial support; no current concrete gap known
+  protocol_wide_adequacy: unconfirmed
+  natural_state: natural formal execution generally unconfirmed unless source checkpoint states otherwise
+
+=== DISTRIBUTED / CONTAINER / NON-STANDALONE SOURCES ===
+UNIT: 0-3
+  heading: 0-3 能力を殺さず、役割を混同しない
+  target_status: not-adopted standalone; common role-separation discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: distributed to actual substantive/reference/externalization/instrumentation owners
+  source: cp41-42
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-10
+  heading: 0-10 二種類の圧縮を区別する
+  target_status: not-adopted standalone; common compression discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: R14 / E4 / 0-5 + preservation owners
+  source: cp55
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-11
+  heading: 0-11 説明・理解・実行を混同しない
+  target_status: not-adopted standalone; common execution-evidence non-substitution discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: actual operation / 0-17 / 0-18 / R20 / E16 / R19 / 0-15 / 0-9
+  source: cp56
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-12
+  heading: 0-12 読解層と評価層を分離する
+  target_status: not-adopted standalone; layer-separation architecture
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: E0 / I1 / E1-I2 / E2-E17 / I3-0-9
+  source: cp57 + cp157-158
+  current_gap: none known; current-known composition limited artificial positive
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-13 heading
+  heading: 0-13 候補検知・検査起動・本格起動・読解粒度・能動的探究を分ける
+  target_status: common necessity/inquiry discipline; heading not one row
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: four materialized runtime targets + owner-specific 0-13 boundaries
+  source: cp58-61
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-14
+  heading: 0-14 モジュールの共通停止原則
+  target_status: not-adopted standalone; common stop/restart discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: owner-operation-specific stop/restart
+  source: cp62
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-15 heading
+  heading: 0-15 プロトコル本文の再参照と運搬
+  target_status: heading-level one-row not adopted; JIT re-reference common discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: protocol transport subtarget has dedicated v0.1 row
+  source: cp63-64
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: 0-18 heading
+  heading: 0-18 監査支援の三経路
+  target_status: aggregate one-row not adopted; role-separation architecture
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: reference=0-18 ref row; externalization=R19; instrumentation=0-17
+  source: cp69-70 + cp158
+  current_gap: none known; current-known composition limited artificial positive
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: R0
+  heading: R0 目的
+  target_status: not-adopted standalone; first-layer purpose/container
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: R1-R21 + common owners
+  source: cp71 + cp158
+  current_gap: none known; current-known composition limited artificial positive
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: R5 heading
+  heading: R5 引用・出所・伝達・研究系譜
+  target_status: dispatch/grouping heading; no monolithic row
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: R5-A/B/C/D/E
+  source: cp80-85
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: R15 heading
+  heading: R15 解釈仮説・探究統合・研究命題
+  target_status: grouping heading; no monolithic materialized row
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: R15-A/B/C
+  source: cp104-108
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: R16
+  heading: R16 判定を急がない
+  target_status: not-adopted standalone; common temporal-judgment discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: 0-4 / R3 / R10 / 0-13 / R15-C and applicable owners
+  source: cp109-110 + cp158
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: R20 heading
+  heading: R20 第一層監査
+  target_status: not-adopted heading target; container role positive; target count three
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: R20-A dedicated; R20-B distributed; R20-C dedicated
+  source: cp114-116
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: R20-B
+  heading: R20-B 監査ルート・ルーティング監査
+  target_status: standalone target positive; dedicated row absent
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: distributed entrance via 0-17 v0.3 field 5
+  source: cp114 + cp68
+  current_gap: current tested-route dedicated-row gap negative
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: E13
+  heading: E13 相手が言っていない命題を作らない
+  target_status: not-adopted standalone; evaluation-layer 0-2 continuation discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: 0-2 v0.1 + applicable substantive owner
+  source: cp145-146 + cp157
+  current_gap: specific gap negative
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: E14
+  heading: E14 評価の中心質問
+  target_status: not-adopted standalone; focus-dispatch discipline
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: relevant substantive evaluation / R / 0-13 / R15-C owners
+  source: cp146-147 + cp157
+  current_gap: specific gap negative
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: E16 heading
+  heading: E16 評価監査
+  target_status: not-adopted heading target; container role positive; target count three
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: E16-A dedicated; E16-B distributed; E16-C dedicated
+  source: cp149-151
+  current_gap: none known
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: E16-B
+  heading: E16-B 監査ルート・使用操作監査
+  target_status: standalone target positive; dedicated row absent
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: distributed entrance via 0-17 v0.3 field 5
+  source: cp149 + cp68
+  current_gap: current tested-route dedicated-row gap negative
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+UNIT: I3
+  heading: I3 評価は読解履歴を上書きしない
+  target_status: not-adopted standalone; evaluation-layer specialization
+  materialization: Coverage Map only; no fake dedicated Trigger row
+  route: primary 0-9; E9 / R19 / E1-I2 / R17 / 0-8 as applicable
+  source: cp156 + cp157
+  current_gap: specific gap negative
+  protocol_wide_adequacy: unconfirmed unless explicitly narrower state stated
+
+=== MATERIALIZATION INVARIANTS ===
+1. v8.3.18 remains normative source.
+2. Trigger Index candidate contains current adopted six-column rows only.
+3. Distributed/no-row disciplines remain in Coverage Map.
+4. field 4/6 are copied from Reference-Gate-passed current sources; no silent normalization.
+5. Regression fixture results remain artificial unless separately established natural evidence.
+6. Candidate artifacts do not replace checkpoint history.
+7. protocol-wide adequacy remains unconfirmed.

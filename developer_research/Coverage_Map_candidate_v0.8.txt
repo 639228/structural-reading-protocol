@@ -1,0 +1,805 @@
+Coverage_Map_candidate_v0.8
+
+STATUS: CANDIDATE / DEVELOPMENT COVERAGE PROJECTION / RARITY→FIRSTNESS NATURAL EVALUATION THREE-TARGET EVIDENCE-STATE REFRESH
+Normative source: 構造的読解プロトコル v8.3.18
+Provenance: Materialization_Source_Manifest_v0.8.txt
+
+Coverage Map is development-time operation→entrance audit. It is not a runtime checklist and does not replace Trigger Index.
+Current-known-route whole-protocol closure: limited artificial positive at composition strength (checkpoint_158). Protocol-wide adequacy: unconfirmed. Natural whole-protocol end-to-end execution: unconfirmed.
+
+=== STANDALONE-POSITIVE MATERIALIZED TARGETS ===
+TARGET: 0-1
+  heading: 0-1 参照対象を固定する
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_38
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-2
+  heading: 0-2 重要語・命題・判断種別・要求確度を保存する
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_40
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted natural literary/evaluation failure replay identifies 0-2 as the earliest current-Trigger prevention point for proposition/judgment-type separation; additionally one Project-persisted natural evaluation replay identifies explicit user-P → stronger/different-axis Q proposition-strengthening/substitution as a current 0-2 prevention point; hidden historical dispatch trace unavailable; standalone natural 0-2 execution remains unconfirmed; failure is not confirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-4
+  heading: 0-4 証拠状態と結論強度を一致させる
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_44
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted natural literary/evaluation failure replay contains directly evidenced overclaim + underclaim matching 0-4 evidence/strength alignment failure; hidden dispatch trace unavailable; standalone natural 0-4 execution remains unconfirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-5 competitive-hypothesis
+  heading: 0-5 競合仮説と条件変更 — competitive-hypothesis target
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_46
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-6
+  heading: 0-6 参照不能時の共通処理
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_48
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-7
+  heading: 0-7 確認・推論・情報状態を分ける
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_50
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one live Project necessity-boundary no-start observation positive from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; additionally one Project-persisted natural literary failure replay identifies 0-7 as a direct provenance/state-separation correction owner; hidden Slayers dispatch trace unavailable; standalone natural 0-7 operation execution remains unconfirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-8
+  heading: 0-8 参照対象と代理物を混同しない
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_52
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-9
+  heading: 0-9 履歴を上書きしない
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_54
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: successful non-retroactive discipline application inside one live R18 Project update from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; standalone natural 0-9 operation execution remains unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-13 全文精読
+  heading: 0-13 全文精読
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_60
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-13 局所問い形成
+  heading: 0-13 局所問い形成
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_61
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted natural serial-literary bounded-inquiry replay identifies a post-judgment no-fire/prevention point under repeated continuation pressure; hidden historical dispatch trace unavailable; successful standalone natural execution remains unconfirmed; failure is not confirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-13 問い更新
+  heading: 0-13 問い更新
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.2
+  source: checkpoint_13+14
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-13 次手選択
+  heading: 0-13 次手選択
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_59
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: existing natural Project occurrence positive; additionally one Project-persisted natural serial-literary bounded-inquiry replay identifies a post-judgment no-start/prevention point under repeated continuation pressure; hidden historical dispatch trace unavailable; successful natural literary execution remains unconfirmed; failure is not confirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-15 protocol transport block
+  heading: 0-15 プロトコル本文の再参照と運搬 — protocol transport block
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_64
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one live Project no-start purpose-separation observation positive from Project_Ledger_Persistence_Natural_Execution_Pilot_v0.1: normative protocol and required R17 / 0-17 procedures were directly accessible, so no separate 0-15 start was necessary; standalone natural 0-15 operation execution remains unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-16
+  heading: 0-16 量化・全称・頻度・不存在命題の検証
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.3
+  source: checkpoint_66
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: isolated Project occurrence positive 1件 at saved strength; formal/natural generalization unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-17
+  heading: 0-17 監査ルート記録
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.3
+  source: checkpoint_68
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: three bounded monitored events positive: (1) R18 direct full-start registration → R18 solid-audit delivery → finite closure from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; (2) R17 direct full-start registration → R17 solid-audit delivery → finite closure from Project_Ledger_Persistence_Natural_Execution_Pilot_v0.1; (3) R5-E direct full-start registration → R5-E solid-audit delivery → finite closure in one bounded natural literary/external-source work unit from Multi_Quotation_Source_Relational_Otherness_Natural_Replay_v0.1; general natural adequacy across operations remains unconfirmed; no automatic all-operation audit adequacy claim
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: 0-18 reference checking
+  heading: 0-18 参照照合 — reference checking
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_70
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R1
+  heading: R1 発見を分類より先に置く
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_73
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R2
+  heading: R2 内在化と外在化
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_75
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R3
+  heading: R3 未確定・競合・多重・矛盾を潰さない
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_77
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R4
+  heading: R4 連載では実際の過去本文へ戻る
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_79
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R5-A
+  heading: R5-A 引用・出典探索
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_81
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted natural serial literary/evaluation failure replay identifies a later R5-A direct-full prevention point after necessity renewal, while required source exploration is absent in the reported trajectory; hidden historical dispatch trace unavailable; standalone successful natural R5-A execution remains unconfirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R5-B
+  heading: R5-B 話者と再所有
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_82
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R5-C
+  heading: R5-C 出所・媒体・伝達経路
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_83
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R5-D
+  heading: R5-D 概念・研究史・実験系譜探索
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_84
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R5-E
+  heading: R5-E 引用差分の横断統合
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_85
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted bounded natural literary/external-source R5-E direct-full execution positive from Multi_Quotation_Source_Relational_Otherness_Natural_Replay_v0.1: start after multiple independently fixed local source/current differences, local-strength-preserving scope-limited cross-case integration, and R5-E solid-audit finite closure; general natural R5-E adequacy remains unconfirmed; historical R5-E execution/nonexecution and failure remain unconfirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R6
+  heading: R6 語り・焦点化・外在的位置
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_87
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R7
+  heading: R7 身体と他者の声
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_89
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R8
+  heading: R8 対立・選択・未来拘束
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_91
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R9
+  heading: R9 リズム――予測可能な未来
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_93
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R10
+  heading: R10 韻律・表記・タイトル・モチーフ・多重意味状態
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_95
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R11
+  heading: R11 理論と具体的作動検査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_97
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R12
+  heading: R12 発話の資格と真正性
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_99
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R13
+  heading: R13 未成立・予測・要求
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_101
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R14
+  heading: R14 限定的代替可能性・除去・復元
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_103
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R15-A
+  heading: R15-A 解釈仮説の強度
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_105
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R15-B
+  heading: R15-B 残差再統合とカテゴリー横断同一性検査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_107
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R15-C
+  heading: R15-C 能動的探究――問いの履歴・統合と研究命題
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_25
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R17
+  heading: R17 台帳
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.2
+  source: checkpoint_20+21; current confirmation cp110
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one live Project ledger/persistence direct full-start positive with preservation/retrieval discrimination positive at that Project state from Project_Ledger_Persistence_Natural_Execution_Pilot_v0.1; general natural adequacy across preservation classes remains unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R18
+  heading: R18 更新
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.2
+  source: checkpoint_17+32+34; current confirmation cp111
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one live Project persistence-state update direct full-start positive with S1→E→S2 non-retroactive update preservation from Project_Persistence_State_Update_Natural_Execution_Pilot_v0.1; additionally, one live R17-pilot no-start purpose-separation observation confirms that R17 storage/retrieval does not itself create a second R18 update start; general natural adequacy across update classes remains unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R19
+  heading: R19 他席による前提・手続き外在化検査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.3
+  source: checkpoint_113
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: Project externalization/recheck history positive at saved workflow-confounded/legacy strength; unconfounded necessity unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R20-A
+  heading: R20-A 常時監査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_115
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R20-C
+  heading: R20-C 未起動必要操作監査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_116
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: R21
+  heading: R21 第一層出力
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_118
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E0
+  heading: E0 起動条件
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_120
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E1 / I2 shared
+  heading: E1 第一層へ戻る / I2 第二層から第一層へ戻る条件 — shared target
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_122
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E2
+  heading: E2 対象と世評を切断する
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_124
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E3
+  heading: E3 表面的複雑性と構造的複雑性
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_126
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E4
+  heading: E4 圧縮テスト
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_128
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E5
+  heading: E5 非自明な帰結と構造密度
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_130
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E6
+  heading: E6 反事実感度と変数操作
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_132
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E7
+  heading: E7 宣言と実演
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_134
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E8
+  heading: E8 難解さと明晰さ
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_136
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E9
+  heading: E9 独創性・新規性・先取性・知体系間接続
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_138
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E10
+  heading: E10 知的外観と欺瞞機能
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_140
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E11
+  heading: E11 最強の反証
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_142
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E12
+  heading: E12 評価軸を移動して結論を保存しない
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_144
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted natural evaluation replay identifies an output-level historical-firstness/no-prior-art → concrete-rarity cross-axis/result-transfer correction condition; hidden historical E12 dispatch trace unavailable; standalone natural E12 execution remains unconfirmed; failure is not confirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E15
+  heading: E15 知的成果物の四条件
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_148
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E16-A
+  heading: E16-A 常時評価監査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_150
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: one Project-persisted natural evaluation failure replay identifies E16-A as a direct pre-output prevention/detection point for actual-P → stronger/different-axis-Q drift and related result transfer; historical audit execution/nonexecution remains unconfirmed; standalone natural E16-A execution remains unconfirmed; failure is not confirmed; no row defect discovered
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E16-C
+  heading: E16-C 未実行必要評価操作監査
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_151
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: E17
+  heading: E17 評価出力
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_153
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+TARGET: I1
+  heading: I1 第一層から第二層へ渡してよいもの
+  standalone_target: positive
+  working_target_count: one (except E1/I2 shared identity represented as one shared target)
+  entrance: dedicated/current six-column v0.1
+  source: checkpoint_155
+  tested_path_adequacy: limited artificial positive / current-known gap none known
+  natural_state: unconfirmed
+  protocol_wide_adequacy: unconfirmed
+
+=== DISTRIBUTED / CONTAINER / NON-STANDALONE CURRENT STATES ===
+UNIT: 0-3
+  heading: 0-3 能力を殺さず、役割を混同しない
+  status: not-adopted standalone; common role-separation discipline
+  entrance_or_owner_route: distributed to actual substantive/reference/externalization/instrumentation owners
+  source: cp41-42
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-10
+  heading: 0-10 二種類の圧縮を区別する
+  status: not-adopted standalone; common compression discipline
+  entrance_or_owner_route: R14 / E4 / 0-5 + preservation owners
+  source: cp55
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-11
+  heading: 0-11 説明・理解・実行を混同しない
+  status: not-adopted standalone; common execution-evidence non-substitution discipline
+  entrance_or_owner_route: actual operation / 0-17 / 0-18 / R20 / E16 / R19 / 0-15 / 0-9
+  source: cp56
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-12
+  heading: 0-12 読解層と評価層を分離する
+  status: not-adopted standalone; layer-separation architecture
+  entrance_or_owner_route: E0 / I1 / E1-I2 / E2-E17 / I3-0-9
+  source: cp57 + cp157-158
+  current_gap: none known; current-known composition limited artificial positive
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-13 heading
+  heading: 0-13 候補検知・検査起動・本格起動・読解粒度・能動的探究を分ける
+  status: common necessity/inquiry discipline; heading not one row
+  entrance_or_owner_route: four materialized runtime targets + owner-specific 0-13 boundaries
+  source: cp58-61
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-14
+  heading: 0-14 モジュールの共通停止原則
+  status: not-adopted standalone; common stop/restart discipline
+  entrance_or_owner_route: owner-operation-specific stop/restart
+  source: cp62
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-15 heading
+  heading: 0-15 プロトコル本文の再参照と運搬
+  status: heading-level one-row not adopted; JIT re-reference common discipline
+  entrance_or_owner_route: protocol transport subtarget has dedicated v0.1 row
+  source: cp63-64
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: 0-18 heading
+  heading: 0-18 監査支援の三経路
+  status: aggregate one-row not adopted; role-separation architecture
+  entrance_or_owner_route: reference=0-18 ref row; externalization=R19; instrumentation=0-17
+  source: cp69-70 + cp158
+  current_gap: none known; current-known composition limited artificial positive
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: R0
+  heading: R0 目的
+  status: not-adopted standalone; first-layer purpose/container
+  entrance_or_owner_route: R1-R21 + common owners
+  source: cp71 + cp158
+  current_gap: none known; current-known composition limited artificial positive
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: R5 heading
+  heading: R5 引用・出所・伝達・研究系譜
+  status: dispatch/grouping heading; no monolithic row
+  entrance_or_owner_route: R5-A/B/C/D/E
+  source: cp80-85
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: R15 heading
+  heading: R15 解釈仮説・探究統合・研究命題
+  status: grouping heading; no monolithic materialized row
+  entrance_or_owner_route: R15-A/B/C
+  source: cp104-108
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: R16
+  heading: R16 判定を急がない
+  status: not-adopted standalone; common temporal-judgment discipline
+  entrance_or_owner_route: 0-4 / R3 / R10 / 0-13 / R15-C and applicable owners
+  source: cp109-110 + cp158
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: R20 heading
+  heading: R20 第一層監査
+  status: not-adopted heading target; container role positive; target count three
+  entrance_or_owner_route: R20-A dedicated; R20-B distributed; R20-C dedicated
+  source: cp114-116
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: R20-B
+  heading: R20-B 監査ルート・ルーティング監査
+  status: standalone target positive; dedicated row absent
+  entrance_or_owner_route: distributed entrance via 0-17 v0.3 field 5
+  source: cp114 + cp68
+  current_gap: current tested-route dedicated-row gap negative
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: E13
+  heading: E13 相手が言っていない命題を作らない
+  status: not-adopted standalone; evaluation-layer 0-2 continuation discipline
+  entrance_or_owner_route: 0-2 v0.1 + applicable substantive owner
+  source: cp145-146 + cp157
+  current_gap: specific gap negative
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: E14
+  heading: E14 評価の中心質問
+  status: not-adopted standalone; focus-dispatch discipline
+  entrance_or_owner_route: relevant substantive evaluation / R / 0-13 / R15-C owners
+  source: cp146-147 + cp157
+  current_gap: specific gap negative
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: E16 heading
+  heading: E16 評価監査
+  status: not-adopted heading target; container role positive; target count three
+  entrance_or_owner_route: E16-A dedicated; E16-B distributed; E16-C dedicated
+  source: cp149-151
+  current_gap: none known
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: E16-B
+  heading: E16-B 監査ルート・使用操作監査
+  status: standalone target positive; dedicated row absent
+  entrance_or_owner_route: distributed entrance via 0-17 v0.3 field 5
+  source: cp149 + cp68
+  current_gap: current tested-route dedicated-row gap negative
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+UNIT: I3
+  heading: I3 評価は読解履歴を上書きしない
+  status: not-adopted standalone; evaluation-layer specialization
+  entrance_or_owner_route: primary 0-9; E9 / R19 / E1-I2 / R17 / 0-8 as applicable
+  source: cp156 + cp157
+  current_gap: specific gap negative
+  dedicated_row: not required unless status explicitly says standalone-positive distributed target
+  protocol_wide_adequacy: unconfirmed
+
+=== WHOLE-PROTOCOL CURRENT CLOSURE ===
+current known cross-layer owner gap: none found
+mandatory duplicate owner: none found
+tested cross-layer route dead-end: none found
+repaired entry unreachable: none found
+distributed-only responsibility without entrance: none found
+audit-destination gap: none found at tested composition strength
+return / rehandoff dead-end: none found
+whole-protocol current-known-route distributed closure: limited artificial positive
+protocol-wide adequacy: unconfirmed
+natural end-to-end execution: unconfirmed
+
+STATUS: CANDIDATE_READY

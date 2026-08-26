@@ -1,0 +1,230 @@
+Post_Materialization_Composition_Delta_Integration_Audit_v0.11
+
+STATUS: LOCAL CIP12 INTEGRATION PASS / PROJECT-SOURCE V1.2 REFRESH DISCOVERY PENDING
+
+Normative source:
+構造的読解プロトコル v8.3.18
+
+Development predecessor:
+logical Trigger_Index_seed_checkpoint_230.txt
+(byte-preserved inside checkpoint_archive_ultravolume_001_230.txt)
+
+Purpose:
+checkpoint_229で具体化しcheckpoint_230でintegration necessity / capacityを確定した64件のRF-CIP12
+post-materialization artifact/retrieval fragmentationを、
+Trigger / Coverage / Manifest semanticsを変更せずに解消する。
+対象deltaはcounterfactual / inquiry / persistence limited artificial composition fixturesのみ。
+
+1. Start state
+
+Current attached Project-source inventory at work-unit start:
+21 / 25.
+free slots: 4.
+
+Regression_Fixtures_candidate_v1.1.txt:
+- bytes: 1245376
+- sha256: 43c2b3747379f48edb2f798fb53b438a7a792f6d501a531223d794fb97efc9fc
+- Regression blocks: 78 = 64 standard + 13 composition + 1 provenance
+- RF IDs: 1,811 unique
+
+Artifact_Retrieval_Index_candidate_v1.1.txt:
+- bytes: 260651
+- sha256: 22390aa40a66ada5b86028b5d881988d83b1d0df4a8b6d609be907d4e2f91d57
+- Regression block pointers: 78
+- RF-ID pointers: 1,811
+
+Post-materialization CIP12 delta:
+- source: Counterfactual_Inquiry_Persistence_Composition_Stress_Pass_12_v0.1.txt
+- source bytes: 31641
+- source sha256: 63d41598dceff4f996a298460f0f62e1aac0bc9741ede0e9fc3cf40fdf758240
+- RF-CIP12: 64 IDs = 40 positive + 24 negative
+- current v1.1 collision: 0
+
+This fragmentation is artifact/retrieval state only.
+It is not a runtime Coverage gap.
+
+2. Source identity / extraction boundary
+
+Counterfactual_Inquiry_Persistence_Composition_Stress_Pass_12_v0.1.txt:
+- fixture-definition extraction: lines 92-478 inclusive
+- source byte range: 5378..<25804
+- extracted bytes: 20426
+- extracted sha256: b39f01cc536a11bcc8287ea3be102ad2198e010d71835d24de22377dd00787ff
+- extracted RF IDs: 64 / 64 unique
+- positive: 40 / 40
+- negative: 24 / 24
+- predecessor RF-ID collision: 0
+
+Only the fixture-definition range beginning at POSITIVE / VALID COMPOSITION FIXTURES
+and ending after RF-CIP12-N24 is integrated.
+STRUCTURAL OWNER / ROUTE REACHABILITY VALIDATION, RESULT SUMMARY, CURRENT JUDGMENT AFTER PASS,
+EVIDENCE BOUNDARY, POST-MATERIALIZATION DELTA, and later text are excluded.
+
+3. Regression refresh
+
+Created:
+Regression_Fixtures_candidate_v1.2.txt
+
+- bytes: 1266694
+- sha256: ec7ded49e59542006a7546da5d76ec6dbfd30e3e3eb4aea9659d0fa6a14be43c
+- predecessor v1.1 blocks byte-identical: 78 / 78 PASS
+- predecessor RF IDs preserved: 1,811 / 1,811 PASS
+- new CIP12 composition block: 1
+- current blocks: 79 = 64 standard + 14 composition + 1 provenance
+- current RF IDs: 1,875 / 1,875 unique
+- CIP12 IDs: 64 / 64 = 40 positive + 24 negative
+- cross-set collision: 0
+
+All 78 predecessor v1.1 suite/composition/provenance block bodies remain byte-identical.
+The provenance block moves after the new CIP12 block but its body is byte-identical.
+New CIP12 fixture definitions are copied byte-for-byte from the stress-artifact fixture range and wrapped only with source metadata.
+
+4. Retrieval refresh
+
+Created:
+Artifact_Retrieval_Index_candidate_v1.2.txt
+
+- bytes: 267664
+- sha256: dfd01f10925a3d721404b3543392883cce4ea97b457bc517991a7a6bc14f9871
+- Trigger row pointers: 61 / 61
+- canonical field pointers: 366 / 366
+- Coverage TARGET pointers: 61 / 61
+- Coverage UNIT pointers: 19 / 19
+- Coverage total: 80 / 80
+- Regression block pointers: 79 / 79
+- RF-ID pointers: 1,875 / 1,875 unique
+- Manifest pointers: 61 / 61
+
+The pre-Regression structural pointer section is byte-identical to Retrieval v1.1:
+- bytes: 67483
+- sha256: b573458f33dc3a56d9ac10f74e4e9da8146b62c4fe608883776c868fd3547f80
+
+Regression v1.2 block and RF-ID pointers were regenerated and locally dereferenced.
+Regression/RF pointer dereference failure: 0.
+
+Representative new pointers:
+RF-CIP12-P40 line=60855 byte=1257937 parent=COMPOSITION:counterfactual/inquiry/persistence pass 12 source=checkpoint_229
+RF-CIP12-N24 line=61001 byte=1262793 parent=COMPOSITION:counterfactual/inquiry/persistence pass 12 source=checkpoint_229
+
+5. Cross-artifact refresh audit
+
+Created:
+Cross_Artifact_Consistency_Audit_v0.13.txt
+- bytes: 5697
+- sha256: 4847ff0d2f8ca45a9c84409976bf08d093ca18c319c59802ac059e4a5a42178f
+- result: 63 / 63 PASS at local CIP12 artifact-refresh strength
+
+6. Unchanged current semantic artifacts
+
+Trigger_Index_candidate_v0.1.txt:
+78f37f241d092c93490301d73396c102f0c248df3f9c48d88302db1e99147146
+
+Coverage_Map_candidate_v0.1.txt:
+46a7332af44e0e7289425b4516a0edfad09d6386a79e0f076b7428804071fddf
+
+Materialization_Source_Manifest_v0.1.txt:
+3ca53d752a8929a9329bc863d5d5fb180d88a7af8e8727c9f794445d38009e43
+
+Cross_Artifact_Consistency_Audit_v0.1.txt:
+95084e9cd615c96598c7b1617cb530b65ecceba96d83c801e0d45feab1508e85
+
+No Trigger row rewrite.
+No Coverage semantic rewrite.
+No Manifest row rewrite.
+No field 4 / field 6 rewrite.
+No new runtime operation.
+No new Trigger Schema column.
+
+Reference Gate:
+not used.
+
+7. Evidence boundary
+
+Integrating RF-CIP12 into Regression does not upgrade Pass12 to:
+- natural literary execution evidence
+- natural research execution evidence
+- natural whole-protocol execution evidence
+- protocol-wide adequacy evidence
+- full dispatcher semantic replay evidence
+
+Pass12 evidence remains limited artificial counterfactual/inquiry/persistence composition positive
+at the saved 64 tested states only.
+Pass1-11 evidence strengths are unchanged.
+
+The refreshed Regression contains 1,875 fixture identities.
+This integration is not a semantic replay of 1,811 or 1,875 fixtures.
+
+8. Project-source discovery / capacity boundary
+
+Current Project source set before materializing this local integration set:
+21 / 25.
+free slots: 4.
+
+Local refreshed artifact roles created by this integration work unit:
+1. Regression_Fixtures_candidate_v1.2.txt
+2. Artifact_Retrieval_Index_candidate_v1.2.txt
+3. Cross_Artifact_Consistency_Audit_v0.13.txt
+4. Post_Materialization_Composition_Delta_Integration_Audit_v0.11.txt
+
+A logical successor checkpoint is created separately and embedded in
+checkpoint_archive_ultravolume_001_231.txt, replacing checkpoint_archive_ultravolume_001_230.txt.
+That replacement is net-zero for the checkpoint-source class and does not consume a fifth slot.
+
+Full Project materialization therefore requires exactly four net-new source additions plus the
+checkpoint archive replacement. Current free slots 4 are sufficient.
+
+After adding all four and replacing checkpoint archive 001-230 with 001-231:
+expected Project source count = 25 / 25.
+expected free slots = 0.
+
+Do not partially promote the v1.2 owner set.
+Do not retire Regression v1.1 / Retrieval v1.1 / Cross v0.12 before
+subsequent Project-source v1.2 discovery/promotion and a separate retirement judgment.
+Do not retire current Integration Audit v0.10 or retained source-management/provenance carriers opportunistically.
+
+Therefore:
+- local refreshed Regression current-state completeness: positive
+- local refreshed structural indexing: positive
+- local Cross v0.13 consistency: 63 / 63 PASS
+- Project-source discovery stability of v1.2 artifacts: unconfirmed
+- preferred Project current lookup remains PREFERRED_CURRENT_LOOKUP_V1.1_PROMOTED_STABLE
+- v1.2 current-lookup promotion is READY_PENDING_PROJECT_INDEX_DISCOVERY_V1.2
+
+9. Current judgment
+
+artifact current-state fragmentation from RF-CIP12:
+locally repaired at Regression/Retrieval v1.2 strength.
+
+runtime Coverage gap discovered by integration:
+none.
+
+Trigger six-column Schema:
+unchanged.
+
+field 4 / field 6 defect:
+none exposed.
+
+Reference Gate:
+not used.
+
+protocol-wide adequacy:
+unconfirmed.
+
+natural literary/research execution:
+unconfirmed.
+
+full 1,875 semantic dispatcher replay:
+unconfirmed / not claimed.
+
+10. Next work unit
+
+First materialize all four refreshed artifacts and the checkpoint archive replacement as one complete set.
+
+Then, in a subsequent Project-source cycle:
+- directly rediscover the complete v1.2 set + checkpoint archive 001-231;
+- verify actual Project count 25 / 25;
+- perform only necessary physical source-capacity repair before creating the v1.2 discovery/promotion audit if a slot is required.
+
+Do not retire v1.1 semantic/structural/cross predecessors before v1.2 discovery promotion and a separate retirement judgment.
+
+STATUS: PASS_LOCAL_CIP12_COMPOSITION_DELTA_INTEGRATION

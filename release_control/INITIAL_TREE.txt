@@ -1,0 +1,21 @@
+CHANGELOG.md
+INSTALLATION.md
+README.md
+VERSION.md
+developer_research/Artifact_Retrieval_Index_candidate_v1.9.txt
+developer_research/Coverage_Map_candidate_v0.8.txt
+developer_research/Cross_Artifact_Consistency_Audit_v0.20.txt
+developer_research/Materialization_Source_Manifest_v0.8.txt
+developer_research/Regression_Fixtures_candidate_v1.2.txt
+evidence_provenance/Post_Materialization_Composition_Delta_Integration_Audit_v0.11.txt
+historical_archive/README.md
+release_control/INTAKE_VERIFICATION.md
+release_control/Public_Distribution_Canonical_Snapshot_Handoff_v1.0.md
+release_control/Release_Engineering_Governance.md
+release_control/SOURCE_SHA256SUMS.txt
+release_control/WORK_UNIT_02_PUBLIC_ENTRYPOINT_AND_METADATA_GAP.md
+release_control/WORK_UNIT_03_STATIC_DEPLOYMENT_PREFLIGHT.md
+runtime/Trigger_Index_candidate_v0.1.txt
+runtime/構造的読解プロトコル v8.3.18.txt
+tests/fresh_environment/EXECUTION_RECORD.md
+tests/fresh_environment/TEST_PLAN.md
