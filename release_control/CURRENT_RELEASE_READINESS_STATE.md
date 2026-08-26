@@ -1,12 +1,12 @@
 # Current Release Readiness State
 
-State revision: `1.9`
+State revision: `1.10`
 
-Status: `STABLE_DOCUMENTATION_PATCH_PUBLISHED / CURRENT_RELEASE_WORK_UNIT_CLOSED`
+Status: `STABLE_DOCUMENTATION_PATCH_MATERIALIZED / PUBLICATION_PENDING`
 
-Distribution: `1.0.2`
+Distribution: `1.0.3`
 
-Stable predecessor: `1.0.1`
+Stable predecessor: `1.0.2`
 
 Canonical handoff: `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`
 
@@ -14,169 +14,95 @@ Upstream semantic identity:
 - Protocol `v8.3.18`
 - Trigger Index `v0.1`
 
-Current active Project-source predecessor at publication-closure time:
-- `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md`
-
-Generated but not Project-admitted intermediate:
-- `CURRENT_RELEASE_READINESS_STATE_v1.8.md` — publication-pending materialization state
+Current Project-backed predecessor:
+- `CURRENT_RELEASE_READINESS_STATE_v1.9(1).md`
 
 Public repository:
 - `https://github.com/639228/structural-reading-protocol`
 
-## 1. Role of this artifact
+## 1. Role
 
-This is the downstream release-state owner prepared after verified publication of stable documentation patch Distribution `1.0.2`.
+This is the downstream release-state successor candidate for Distribution `1.0.3`, a README quick-access/navigation documentation patch over published stable `1.0.2`.
 
-It records the adopted public-facing Japanese README, detailed ChatGPT Project loading instructions using Japanese UI terminology, separate English navigation/loading documents, assigned repository metadata, and verified GitHub publication state over stable predecessor `1.0.1`.
-
-It does not revise canonical Protocol semantics, Trigger runtime semantics, Regression expectations, upstream source selection, or the saved strength of fresh behavioral evidence.
+It does not revise canonical Protocol semantics, Trigger runtime semantics, Regression expectations, upstream source selection, or saved behavioral evidence strength.
 
 ## 2. Distribution delta
 
-Verified stable base:
-`1.0.1`
+The `1.0.3` delta is limited to public navigation / distribution metadata:
+- add top-level `English / Installation / Latest Release` navigation in the Japanese primary README;
+- add a compact `最短で試す` section after the opening problem statement and before `これは何か`;
+- preserve the established first-time four-file ChatGPT setup;
+- preserve Protocol + Trigger as the minimum runtime pair;
+- use repository-relative `INSTALLATION.md` rather than a ChatGPT-internal Project/conversation URL;
+- update Distribution metadata and changelog to `1.0.3`.
 
-Verified base archive SHA-256:
-`7b1d0db2711fdc3e0b622d813068072fc86de55d23cebaabb94ee1008038e42d`
+Unchanged semantic/support identity:
+- Protocol `v8.3.18`;
+- Trigger Index `v0.1`;
+- Coverage `v0.8`;
+- Manifest `v0.8`;
+- Retrieval `v1.9`;
+- Regression `v1.2`;
+- Cross `v0.20`;
+- Integration `v0.11`.
 
-Current Distribution:
-`1.0.2`
+## 3. Fresh behavioral judgment
 
-Substantive public-document delta:
-- adopt a problem-first public README explaining what the Protocol addresses, what it can do, why to use it, and how to start;
-- make `README.md` the Japanese primary entry point;
-- use ChatGPT's Japanese UI term `情報源` in Japanese setup guidance;
-- recommend four files for first-time ChatGPT use: README, INSTALLATION, Protocol, Trigger;
-- preserve Protocol + Trigger as the minimum canonical runtime pair;
-- add `README.en.md` and `INSTALLATION.en.md` to the actual distribution archive as English navigation/loading documents;
-- state that canonical runtime is Japanese and English/translated runtime equivalence is unestablished;
-- record the assigned repository URL in public metadata.
+New run: `NO START`.
 
-Unchanged from verified `1.0.1`:
-- runtime Protocol bytes;
-- runtime Trigger bytes;
-- Coverage / Manifest / Retrieval / Regression / Cross / Integration bytes;
-- `LICENSE.md`;
-- public license/citation authority record;
-- canonical handoff / governance / SOURCE SHA-256 inventory;
-- saved fresh-environment execution record and test plan;
-- acknowledgement proposition and attribution boundary.
+Reason: the patch only shortens navigation to the already documented four-file loading path and existing bootstrap instructions. It does not change runtime ownership, Trigger necessity/route/stop semantics, or the minimum runtime pair.
 
-## 3. ChatGPT / language boundary
+Saved fresh evidence remains `8 / 8 PREPARED FD CASES PASS` at its existing bounded strength only.
 
-The ChatGPT procedure is downstream explanatory loading guidance, not a canonical system prompt or semantic owner.
+## 4. Package verification
 
-Project instructions are not promoted to a runtime requirement. Baseline instructions may be left blank; the guide recommends a bounded bootstrap at the start of each new chat.
+Materialization status: `PASS`.
 
-The first-time recommended four-file setup gives the model access to README and INSTALLATION in addition to the canonical runtime pair. README and INSTALLATION remain non-normative distribution documents. The minimum runtime remains the Protocol + Trigger pair.
-
-The canonical runtime language remains Japanese. English documentation is distribution/navigation only. Equivalent English-language input behavior or translated-runtime behavior is not established and is not claimed.
-
-## 4. Fresh behavioral carry-forward
-
-Saved fresh result:
-`8 / 8 PREPARED FD CASES PASS`
-
-A new behavioral run is `NO START` for this documentation patch. The recommended first-time four-file structure matches the already saved fresh test input structure, and no canonical runtime semantics or dispatch conditions change.
-
-This carry-forward does not establish protocol-wide adequacy, natural whole-protocol execution, hidden dispatch correctness, cross-model/cross-environment reproducibility, absence of systematic weakness, universal performance improvement, or language equivalence.
-
-## 5. Package verification result
-
-Final `1.0.2` package verification before publication:
-`PASS`
-
-Verified at materialization:
-- required runtime pair present;
-- canonical/source SHA-256 inventory passes;
-- all preserved semantic/support/runtime payloads are byte-identical to verified `1.0.1`;
-- `README.en.md` and `INSTALLATION.en.md` are present in the actual archive;
-- Japanese and English guidance consistently distinguishes first-time four-file setup from the two-file minimum runtime;
-- package-wide SHA-256 inventory passes after documentation materialization;
-- rebuilt tar.gz re-extracts successfully;
+Required checks:
+- verified `1.0.1` stable archive used as physical semantic/support base;
+- verified final `1.0.2` repository patch SHA-256 `78d1a303601498dd01d6bd6113f0fecdffae6462d1dbac0424d30542add13ffc` applied;
+- post-publication `1.0.2` closure control patch applied;
+- accepted `1.0.3` README/navigation patch applied;
+- canonical/source SHA-256 inventory preserved;
+- package-wide checksum inventory regenerated and verified;
+- archive re-extraction verified;
 - no symlinks present.
 
-## 6. GitHub publication verification
+## 5. Publication state
 
-Publication status:
-`PASS`
+`v1.0.3` GitHub publication: `PENDING`.
 
-Verified public release:
-- tag: `v1.0.2`;
-- release title: `構造的読解プロトコル — Public Distribution 1.0.2`;
-- release is not draft;
-- release is not prerelease;
-- release is current Latest;
-- `v1.0.2` tag points to commit `eef49226b8f9d251b8f662e6491c535ebc530e6f`;
-- published asset: `public_distribution_1.0.2.tar.gz`;
-- published archive SHA-256: `881aba5ccfba4787dc01734050a3c8690d5ab79a72973313ea6dc79207f70434`;
-- published checksum sidecar: `public_distribution_1.0.2.tar.gz.sha256`;
-- Release body declares the same archive SHA-256.
+Preferred sequence:
+1. update `main` with the verified `1.0.3` repository patch;
+2. immediately create `v1.0.3` targeting that exact commit;
+3. attach the verified `1.0.3` archive and checksum sidecar;
+4. verify tag target, Latest status, and asset digest;
+5. only then close publication state.
 
-Historical predecessor restoration:
-`PASS`
+The published `v1.0.2` release remains unchanged until `v1.0.3` is actually published.
 
-Verified `v1.0.1` state:
-- `v1.0.1` tag remains present and points to commit `f9719b32fbbfe9e119fd68bb72164f76e922763f`;
-- release title restored as `構造的読解プロトコル — Public Distribution 1.0.1`;
-- predecessor archive SHA-256 remains `7b1d0db2711fdc3e0b622d813068072fc86de55d23cebaabb94ee1008038e42d`.
+## 6. Semantic boundary
 
-The post-publication administrative update of `main` does not move or reinterpret the `v1.0.2` tag. The released snapshot remains the commit identified above.
+No current observation authorizes Protocol revision, Trigger revision, new runtime operation, new Trigger row, field 4/6 semantic change, Regression expectation change, Reference Gate repair, or translated canonical runtime promotion.
 
-## 7. Current release-readiness matrix
+Current semantic defect candidate: `NONE EXPOSED`.
 
-| Area | Current judgment | Effect |
-| --- | --- | --- |
-| Canonical runtime pair | PASS — Protocol v8.3.18 + Trigger v0.1 | ready |
-| Runtime role separation | PASS | ready |
-| Public problem/purpose explanation | adopted in Japanese primary README | PASS |
-| Detailed ChatGPT Project guide | integrated as non-canonical distribution guidance | PASS |
-| First-time four-file setup | aligned with saved fresh-test input structure | PASS |
-| Minimum two-file runtime | preserved | PASS |
-| English navigation docs | present in package; not runtime translation | PASS |
-| Language-equivalence claim | not established / not claimed | boundary preserved |
-| Canonical/source byte identity | PASS | ready |
-| Package-wide integrity | PASS | ready |
-| Fresh behavioral deployment | EXECUTED — bounded FD-01..FD-08 PASS | ready at saved strength |
-| LICENSE | PASS — CC BY 4.0 integrated | ready |
-| CITATION | PASS — repository metadata updated | ready |
-| Repository | `https://github.com/639228/structural-reading-protocol` | assigned |
-| DOI | not yet assigned | not blocker |
-| Semantic defect candidate | none exposed by current downstream work | no semantic patch authorized |
-| Distribution identity | `1.0.2` published and verified | PASS |
-| GitHub publication | `v1.0.2` published / Latest / asset digest verified | PASS |
-| Stable predecessor history | `v1.0.1` release/tag/assets restored and verified | PASS |
+## 7. Project-source admission
 
-## 8. Semantic-change boundary
+The current Project-backed readiness owner remains `CURRENT_RELEASE_READINESS_STATE_v1.9(1).md` until this successor state is explicitly admitted.
 
-No current observation authorizes Trigger repair, Protocol semantic revision, a new runtime operation, a new Trigger row, field 4/6 semantic change, Regression expectation change, Reference Gate repair, or translated canonical runtime promotion.
+This `1.10` artifact is a successor candidate only at the present pre-publication stage.
 
-Current semantic defect candidate:
-`NONE EXPOSED`
+## 8. Stop condition
 
-## 9. Project-source admission / retirement path
+Package materialization and verification are complete.
 
-At publication-closure time, the current Project-backed readiness owner remains `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md`.
-
-`CURRENT_RELEASE_READINESS_STATE_v1.8.md` was a generated publication-pending intermediate and was not established as the Project-backed current owner.
-
-This `v1.9` closure artifact is therefore the direct successor candidate for Project-source admission. After direct admission verification, it may replace `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` one-for-one. The unadmitted `v1.8` intermediate does not need to be promoted merely to preserve sequential numbering.
-
-No canonical source, runtime source, Regression source, or other semantic/support owner is replaced by this transition.
-
-## 10. Stop condition
-
-Distribution `1.0.2` materialization, GitHub publication, asset verification, predecessor-release restoration, and release-state closure are complete.
-
-Further behavioral testing: `NO START` at current inputs.
+Further behavioral testing: `NO START`.
 
 Semantic patching: `NO START`.
 
-Further publication work: `NO START` absent a concrete hosting defect, metadata correction, asset-integrity failure, or successor release requirement.
+Next required downstream work: GitHub `main` update and `v1.0.3` publication verification.
 
-Next allowed downstream work begins only if a concrete distribution defect, publication correction, metadata update, or upstream canonical successor creates a new required judgment.
-
-At current inputs:
-`STOP`
+At current inputs: `STOP` pending publication.
 
 END
