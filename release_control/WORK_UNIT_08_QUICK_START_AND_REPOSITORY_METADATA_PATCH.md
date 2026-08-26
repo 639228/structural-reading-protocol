@@ -1,6 +1,6 @@
 # Work Unit 08 — Public Entrypoint / ChatGPT Setup / Repository Metadata Patch
 
-Status: `MATERIALIZED / VERIFIED / PUBLICATION_UPDATE_PENDING`
+Status: `PUBLISHED / VERIFIED / CLOSED`
 
 Distribution: `1.0.2`
 
@@ -15,7 +15,7 @@ Public repository:
 
 ## Purpose
 
-Integrate the public-facing README selected for release, make ChatGPT setup understandable from the Japanese UI, preserve the already tested four-file first-time loading path, add English navigation/loading documents, and record the assigned repository metadata.
+Integrate the public-facing README selected for release, make ChatGPT setup understandable from the Japanese UI, preserve the already tested four-file first-time loading path, add English navigation/loading documents, record the assigned repository metadata, and publish the verified distribution without changing canonical semantics.
 
 This is downstream distribution/documentation work. It does not revise upstream canonical semantics.
 
@@ -34,8 +34,8 @@ User-facing documentation changes:
 Release-control changes:
 - update `release_control/CURRENT_RELEASE_READINESS_STATE.md`;
 - keep `release_control/PROJECT_SOURCE_CAPACITY_LEDGER.md` at its already observed state;
-- update this Work Unit 08;
-- regenerate `release_control/PACKAGE_SHA256SUMS.txt`.
+- close this Work Unit 08 after publication verification;
+- preserve the released tag as the release snapshot while allowing later administrative closure records on `main`.
 
 ## Runtime / semantic boundary
 
@@ -53,23 +53,56 @@ The English documents are navigation/loading documents only. No English canonica
 
 New run: `NO START`.
 
-Reason: the revised first-time recommendation uses the same four public inputs already used by the saved fresh-environment deployment test (README, INSTALLATION, Protocol, Trigger), while the canonical runtime pair and bootstrap role separation are unchanged in semantic ownership. The new public explanation does not add a semantic operation or change Trigger necessity/route/stop conditions.
+Reason: the revised first-time recommendation uses the same four public inputs already used by the saved fresh-environment deployment test (README, INSTALLATION, Protocol, Trigger), while the canonical runtime pair and bootstrap role separation are unchanged in semantic ownership. The public explanation does not add a semantic operation or change Trigger necessity/route/stop conditions.
 
 The saved evidence remains bounded at its recorded strength.
 
-## Verification requirement
+## Materialization verification
 
-Before closure:
-- runtime Protocol and Trigger hashes must match `SOURCE_SHA256SUMS.txt`;
-- canonical support payloads must remain byte-identical to verified `1.0.1`;
-- new English documents must actually be present in the archive;
-- Japanese/English loading guidance must agree on first-time four-file setup vs two-file minimum runtime;
-- package-wide SHA-256 inventory must PASS;
-- rebuilt archive must re-extract successfully;
-- no symlinks may be present.
+Result:
+`PASS`
+
+Verified before publication:
+- runtime Protocol and Trigger hashes match `SOURCE_SHA256SUMS.txt`;
+- preserved canonical support payloads remain byte-identical to verified `1.0.1`;
+- `README.en.md` and `INSTALLATION.en.md` are present in the archive;
+- Japanese/English loading guidance agrees on first-time four-file setup vs two-file minimum runtime;
+- package-wide SHA-256 inventory passes;
+- rebuilt archive re-extracts successfully;
+- no symlinks are present.
+
+## Publication verification
+
+Result:
+`PASS`
+
+Verified:
+- `v1.0.2` Release exists and is public;
+- it is not a draft and not a prerelease;
+- it is the current Latest Release;
+- `v1.0.2` tag points to commit `eef49226b8f9d251b8f662e6491c535ebc530e6f`;
+- `public_distribution_1.0.2.tar.gz` is attached;
+- published archive SHA-256 is `881aba5ccfba4787dc01734050a3c8690d5ab79a72973313ea6dc79207f70434`;
+- Release body declares the same archive SHA-256;
+- checksum sidecar is attached;
+- `v1.0.1` historical Release is restored;
+- `v1.0.1` tag points to `f9719b32fbbfe9e119fd68bb72164f76e922763f`;
+- `v1.0.1` archive SHA-256 remains `7b1d0db2711fdc3e0b622d813068072fc86de55d23cebaabb94ee1008038e42d`.
 
 ## Result
 
-`PASS_STABLE_DOCUMENTATION_PATCH_1.0.2_MATERIALIZATION`
+`PASS_STABLE_DOCUMENTATION_PATCH_1.0.2_PUBLICATION`
 
-The public-entrypoint and loading-documentation changes are integrated at downstream distribution strength only. No canonical semantic or evidence-strength claim is upgraded.
+The public-entrypoint and loading-documentation changes are published at downstream distribution strength only. No canonical semantic or evidence-strength claim is upgraded.
+
+## Stop
+
+Work Unit 08 is closed.
+
+Further behavioral testing: `NO START`.
+
+Semantic patching: `NO START`.
+
+Further publication work: `NO START` absent a concrete distribution defect, metadata correction, asset-integrity failure, or successor release requirement.
+
+`STOP`

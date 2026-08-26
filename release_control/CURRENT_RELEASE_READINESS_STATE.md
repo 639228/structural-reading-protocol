@@ -1,8 +1,8 @@
 # Current Release Readiness State
 
-State revision: `1.8`
+State revision: `1.9`
 
-Status: `STABLE_DOCUMENTATION_PATCH_MATERIALIZED / PUBLICATION_UPDATE_PENDING`
+Status: `STABLE_DOCUMENTATION_PATCH_PUBLISHED / CURRENT_RELEASE_WORK_UNIT_CLOSED`
 
 Distribution: `1.0.2`
 
@@ -14,21 +14,24 @@ Upstream semantic identity:
 - Protocol `v8.3.18`
 - Trigger Index `v0.1`
 
-Current active Project-source predecessor at patch-materialization time:
+Current active Project-source predecessor at publication-closure time:
 - `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md`
+
+Generated but not Project-admitted intermediate:
+- `CURRENT_RELEASE_READINESS_STATE_v1.8.md` — publication-pending materialization state
 
 Public repository:
 - `https://github.com/639228/structural-reading-protocol`
 
 ## 1. Role of this artifact
 
-This is the downstream release-state owner prepared for stable documentation patch Distribution `1.0.2`.
+This is the downstream release-state owner prepared after verified publication of stable documentation patch Distribution `1.0.2`.
 
-It records the adopted public-facing Japanese README, detailed ChatGPT Project loading instructions using Japanese UI terminology, separate English navigation/loading documents, and assigned repository metadata over verified stable Distribution `1.0.1`.
+It records the adopted public-facing Japanese README, detailed ChatGPT Project loading instructions using Japanese UI terminology, separate English navigation/loading documents, assigned repository metadata, and verified GitHub publication state over stable predecessor `1.0.1`.
 
 It does not revise canonical Protocol semantics, Trigger runtime semantics, Regression expectations, upstream source selection, or the saved strength of fresh behavioral evidence.
 
-## 2. Patch delta
+## 2. Distribution delta
 
 Verified stable base:
 `1.0.1`
@@ -80,10 +83,10 @@ This carry-forward does not establish protocol-wide adequacy, natural whole-prot
 
 ## 5. Package verification result
 
-Final `1.0.2` package verification:
+Final `1.0.2` package verification before publication:
 `PASS`
 
-Verified:
+Verified at materialization:
 - required runtime pair present;
 - canonical/source SHA-256 inventory passes;
 - all preserved semantic/support/runtime payloads are byte-identical to verified `1.0.1`;
@@ -93,7 +96,34 @@ Verified:
 - rebuilt tar.gz re-extracts successfully;
 - no symlinks present.
 
-## 6. Current release-readiness matrix
+## 6. GitHub publication verification
+
+Publication status:
+`PASS`
+
+Verified public release:
+- tag: `v1.0.2`;
+- release title: `構造的読解プロトコル — Public Distribution 1.0.2`;
+- release is not draft;
+- release is not prerelease;
+- release is current Latest;
+- `v1.0.2` tag points to commit `eef49226b8f9d251b8f662e6491c535ebc530e6f`;
+- published asset: `public_distribution_1.0.2.tar.gz`;
+- published archive SHA-256: `881aba5ccfba4787dc01734050a3c8690d5ab79a72973313ea6dc79207f70434`;
+- published checksum sidecar: `public_distribution_1.0.2.tar.gz.sha256`;
+- Release body declares the same archive SHA-256.
+
+Historical predecessor restoration:
+`PASS`
+
+Verified `v1.0.1` state:
+- `v1.0.1` tag remains present and points to commit `f9719b32fbbfe9e119fd68bb72164f76e922763f`;
+- release title restored as `構造的読解プロトコル — Public Distribution 1.0.1`;
+- predecessor archive SHA-256 remains `7b1d0db2711fdc3e0b622d813068072fc86de55d23cebaabb94ee1008038e42d`.
+
+The post-publication administrative update of `main` does not move or reinterpret the `v1.0.2` tag. The released snapshot remains the commit identified above.
+
+## 7. Current release-readiness matrix
 
 | Area | Current judgment | Effect |
 | --- | --- | --- |
@@ -113,31 +143,40 @@ Verified:
 | Repository | `https://github.com/639228/structural-reading-protocol` | assigned |
 | DOI | not yet assigned | not blocker |
 | Semantic defect candidate | none exposed by current downstream work | no semantic patch authorized |
-| Distribution identity | `1.0.2` materialized and verified | PASS |
-| GitHub publication | `v1.0.2` not yet published at materialization time | pending hosting update |
+| Distribution identity | `1.0.2` published and verified | PASS |
+| GitHub publication | `v1.0.2` published / Latest / asset digest verified | PASS |
+| Stable predecessor history | `v1.0.1` release/tag/assets restored and verified | PASS |
 
-## 7. Semantic-change boundary
+## 8. Semantic-change boundary
 
 No current observation authorizes Trigger repair, Protocol semantic revision, a new runtime operation, a new Trigger row, field 4/6 semantic change, Regression expectation change, Reference Gate repair, or translated canonical runtime promotion.
 
 Current semantic defect candidate:
 `NONE EXPOSED`
 
-## 8. Project-source admission / retirement path
+## 9. Project-source admission / retirement path
 
-The current package retains the previously recorded Project-source transition path: `CURRENT_RELEASE_READINESS_STATE_v1.8.md` may replace `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` one-for-one after direct admission verification. No additional package-internal release-control artifact should be admitted merely because this documentation candidate was rebuilt.
+At publication-closure time, the current Project-backed readiness owner remains `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md`.
 
-## 9. Stop condition
+`CURRENT_RELEASE_READINESS_STATE_v1.8.md` was a generated publication-pending intermediate and was not established as the Project-backed current owner.
 
-Public entrypoint / ChatGPT loading / language / repository-metadata patch materialization is closed.
+This `v1.9` closure artifact is therefore the direct successor candidate for Project-source admission. After direct admission verification, it may replace `CURRENT_RELEASE_READINESS_STATE_v1.7(1).md` one-for-one. The unadmitted `v1.8` intermediate does not need to be promoted merely to preserve sequential numbering.
+
+No canonical source, runtime source, Regression source, or other semantic/support owner is replaced by this transition.
+
+## 10. Stop condition
+
+Distribution `1.0.2` materialization, GitHub publication, asset verification, predecessor-release restoration, and release-state closure are complete.
 
 Further behavioral testing: `NO START` at current inputs.
 
 Semantic patching: `NO START`.
 
-Next allowed downstream step: publish the verified `1.0.2` bytes to the existing GitHub repository as `v1.0.2`, then record publication state if needed.
+Further publication work: `NO START` absent a concrete hosting defect, metadata correction, asset-integrity failure, or successor release requirement.
 
-At current materialization inputs:
+Next allowed downstream work begins only if a concrete distribution defect, publication correction, metadata update, or upstream canonical successor creates a new required judgment.
+
+At current inputs:
 `STOP`
 
 END
