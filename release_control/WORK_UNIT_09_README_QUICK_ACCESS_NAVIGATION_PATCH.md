@@ -1,8 +1,8 @@
 # Work Unit 09 — README Quick-Access Navigation Patch
 
-Status: `PACKAGE MATERIALIZED / VERIFIED / PUBLICATION PENDING`
+Status: `CANDIDATE MATERIALIZED / PACKAGE NOT YET MATERIALIZED`
 
-Distribution: `1.0.3`
+Distribution candidate: `1.0.3`
 Stable predecessor: `1.0.2`
 
 Canonical semantic identity:
@@ -32,15 +32,15 @@ Reason: the patch does not change loading semantics or runtime ownership. It onl
 Preferred publication sequence:
 
 1. materialize and verify the `1.0.3` package;
-2. update repository `main` with the verified `1.0.3` README / metadata patch;
-3. immediately create tag/release `v1.0.3` targeting that exact `main` commit and attach the verified package assets.
+2. publish GitHub Release `v1.0.3` with the verified package assets;
+3. update repository `main` with the `1.0.3` README / metadata patch in the same publication work unit or immediately after release publication.
 
-Reason: the `v1.0.3` tag should identify the repository snapshot containing the `1.0.3` public documentation. The `/releases/latest` link may continue to resolve to `v1.0.2` only during the short interval between the main update and release publication.
+Reason: the README top navigation uses `/releases/latest`; until `v1.0.3` is published, that link correctly resolves to the currently published `v1.0.2`.
 
 ## Current stop
 
-The `1.0.3` package and repository patch are materialized and verified.
+README/repository patch candidate is materialized and internally version-consistent.
 
-GitHub `main` update and `v1.0.3` tag/release publication remain pending.
+Package/archive materialization and GitHub `v1.0.3` publication are separate later steps.
 
-`STOP` pending publication.
+`STOP` pending package materialization.
