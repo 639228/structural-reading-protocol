@@ -2,7 +2,7 @@
 
 [日本語](README.md)
 
-**Distribution:** `1.0.2`  
+**Distribution:** `1.0.3`  
 **Status:** **stable public release**
 
 ### Not a prompt for making ChatGPT “think harder,” but an execution architecture for controlling

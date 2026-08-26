@@ -2,15 +2,15 @@
 
 ## Distribution identity
 
-- Distribution: `1.0.2`
+- Distribution: `1.0.3`
 - Distribution status: stable public release
-- Stable predecessor: `1.0.1`
+- Stable predecessor: `1.0.2`
 - Downstream snapshot label: `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`
 - Upstream checkpoint boundary: `checkpoint275`
 - Preferred lookup at handoff: `PREFERRED_CURRENT_LOOKUP_V1.9_PROJECTION_REFRESH_PROMOTED`
 - `PROMOTED_STABLE` at upstream handoff: not established
 
-`1.0.2` is a downstream documentation-only stable patch identity. It does not imply an upstream semantic revision or upgrade the upstream handoff's promotion strength.
+`1.0.3` is a downstream README quick-access/navigation stable documentation patch. It does not imply an upstream semantic revision or upgrade the upstream handoff's promotion strength.
 
 ## Public identity / license
 
@@ -47,7 +47,8 @@
 - verified development base: `0.1.0-dev.5`
 - verified release candidate: `1.0.0-rc.1`
 - first stable public release: `1.0.0`
-- predecessor stable documentation patch: `1.0.1`
-- current stable documentation patch: `1.0.2`
+- stable documentation patch: `1.0.1`
+- predecessor published stable documentation patch: `1.0.2`
+- current stable README quick-access/navigation patch: `1.0.3`
 
-The `1.0.2` patch revises the public entrypoint and ChatGPT loading documentation, adds separate English navigation/loading documents, and records the assigned public repository URL. The first-time recommended ChatGPT setup uses README + INSTALLATION + the canonical runtime pair; the minimum runtime remains Protocol `v8.3.18` + Trigger Index `v0.1`. Runtime semantic identity is unchanged.
+The `1.0.3` patch adds a compact top navigation line and a short `最短で試す` path to the Japanese primary README. It reuses the already documented first-time four-file setup and preserves Protocol + Trigger Index as the two-file minimum canonical runtime pair. Runtime semantic identity is unchanged.

@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.0.3 — 2026-08-27
+
+### README quick-access / navigation patch
+
+- added `Installation` and `Latest Release` links beside the existing `English` link at the top of the Japanese primary README;
+- added a compact `最短で試す` section immediately after the opening problem statement and before `これは何か`;
+- reused the established first-time four-file ChatGPT setup: `README.md`, `INSTALLATION.md`, Protocol, and Trigger Index;
+- preserved Protocol + Trigger Index as the two-file minimum canonical runtime pair;
+- linked the detailed guide with repository-relative `[INSTALLATION.md](INSTALLATION.md)` rather than a ChatGPT-internal Project/conversation URL;
+- left the explanatory body otherwise unchanged.
+
+### Behavioral / semantic boundary
+
+- Protocol `v8.3.18` unchanged;
+- Trigger Index `v0.1` unchanged;
+- no new runtime operation, Trigger row, field 4/6 rule, Regression expectation, bootstrap semantic rule, or translated canonical runtime;
+- new fresh behavioral run: `NO START`; this patch only creates a shorter navigation path to already documented loading instructions.
+
+### Release state
+
+- Distribution `1.0.3` is the stable README quick-access/navigation documentation patch over `1.0.2`;
+- GitHub publication of tag/release `v1.0.3` is the remaining hosting step;
+- Protocol remains `v8.3.18`; Trigger Index remains `v0.1`.
+
 ## 1.0.2 — 2026-08-27
 
 ### Public entrypoint / ChatGPT setup / repository metadata patch

@@ -1,8 +1,8 @@
 # 構造的読解プロトコル
 
-[English](README.en.md)
+[English](README.en.md) · [Installation](INSTALLATION.md) · [Latest Release](https://github.com/639228/structural-reading-protocol/releases/latest)
 
-**配布版:** `1.0.2`  
+**配布版:** `1.0.3`  
 **状態:** 安定公開版
 
 ### ChatGPTに「もっと深く考えさせる」ためではなく、
@@ -38,6 +38,33 @@ ChatGPTは、文章を要約し、分析し、比較し、仮説を立て、調�
 という実行制御の問題です。
 
 構造的読解プロトコルは、この考え方を、精密読解・能動的探究・研究・評価・状態管理・監査まで含む実行体系として具体化した、自然言語ベースの実行アーキテクチャです。
+
+---
+
+## 最短で試す
+
+1. [Latest Release](https://github.com/639228/structural-reading-protocol/releases/latest) から配布物を取得する
+2. ChatGPTで新しいProjectを作る
+3. 次の4ファイルをProjectの「情報源」に追加する
+
+```text
+README.md
+INSTALLATION.md
+runtime/構造的読解プロトコル v8.3.18.txt
+runtime/Trigger_Index_candidate_v0.1.txt
+```
+
+4. 新しいチャットを作り、README内の初期指示を1回送る
+5. あとは普通の日本語で、読みたい文章や質問を渡す
+
+詳しい導入手順は [INSTALLATION.md](INSTALLATION.md) を参照してください。
+
+すでに使い方を理解している場合、最小runtimeは次の2ファイルです。
+
+```text
+runtime/構造的読解プロトコル v8.3.18.txt
+runtime/Trigger_Index_candidate_v0.1.txt
+```
 
 ---
 
@@ -550,7 +577,7 @@ Protocol本文やTrigger Indexの英訳版ではありません。
 - Regression: `v1.2`
 - Cross audit: `v0.20`
 - Integration audit: `v0.11`
-- Distribution: `1.0.2`
+- Distribution: `1.0.3`
 
 Protocol versionとDistribution versionは別です。
 
