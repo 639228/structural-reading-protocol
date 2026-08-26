@@ -1,11 +1,29 @@
 # 構造的読解プロトコル — Public Distribution
 
-**Distribution:** `1.0.1`  
+**Distribution:** `1.0.2`  
 **Status:** **stable public release**
 
 This package is a downstream public-distribution build of the canonical snapshot handed off as `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`.
 
 It does not revise the upstream semantic specification.
+
+## Quick Start
+
+For a file-capable ChatGPT / LLM environment, the following is a distribution-side usage example. It is **not** a canonical system prompt and does not replace the Protocol or Trigger Index.
+
+1. Download and extract this distribution.
+2. Attach or otherwise make these two files directly available to the target model:
+   - `runtime/構造的読解プロトコル v8.3.18.txt`
+   - `runtime/Trigger_Index_candidate_v0.1.txt`
+3. Send a bootstrap instruction such as:
+
+```text
+添付した2ファイルをruntime packageとして使用してください。構造的読解プロトコル本文をnormative/semantic owner、Trigger Indexをruntime dispatchとして扱ってください。Trigger IndexはProtocol本文を置き換えず、固定checklistとして扱わないでください。以後の質問にはこのruntime packageを使用して回答してください。
+```
+
+4. After the model has loaded the two roles correctly, ask the question you actually want answered.
+
+For ordinary use, `developer_research/` and `evidence_provenance/` do not need to be loaded. See `INSTALLATION.md` for the distribution-side loading contract.
 
 ## Runtime: what you actually need
 
@@ -77,7 +95,7 @@ The current handoff also does not authorize a Trigger semantic repair, a new run
 - Creator / Licensor: `639228`
 - License: Creative Commons Attribution 4.0 International (`CC BY 4.0`)
 - DOI: not yet assigned
-- Repository: not yet assigned
+- Repository: https://github.com/639228/structural-reading-protocol
 
 See `LICENSE.md` for licensing scope and attribution terms, and `CITATION.md` for the preferred citation form.
 The authoritative downstream metadata decision is preserved in `release_control/PUBLIC_LICENSE_AND_CITATION_AUTHORITY_v1.0.md`.
@@ -94,7 +112,7 @@ These versions are independent:
 - Regression: `v1.2`
 - Cross audit: `v0.20`
 - Integration audit: `v0.11`
-- Distribution: `1.0.1`
+- Distribution: `1.0.2`
 
 A downstream Distribution version change does not imply an upstream semantic revision.
 
@@ -106,7 +124,7 @@ The prepared fresh-environment observation set FD-01..FD-08 passed 8 / 8 in one 
 
 The authoritative Creator / Licensor identity and CC BY 4.0 license are integrated into this distribution. The prior LICENSE / CITATION metadata blockers remain closed after stable-release materialization verification.
 
-Distribution `1.0.1` is a documentation-only stable patch over `1.0.0`. It adds the acknowledgement section below and does not revise runtime semantics, bootstrap guidance, evidence strength, or canonical source identity. The original `1.0.0` stable release remains part of release history.
+Distribution `1.0.2` is a documentation-only stable patch over `1.0.1`. It adds a non-canonical Quick Start usage example and records the assigned public repository URL. It does not revise runtime semantics, evidence strength, or canonical source identity. The prior stable releases remain part of release history.
 
 For the consolidated current release-engineering judgment, see `release_control/CURRENT_RELEASE_READINESS_STATE.md`.
 

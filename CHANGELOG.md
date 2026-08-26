@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.0.2 — 2026-08-26
+
+### Documentation-only Quick Start / repository metadata patch
+
+- added a `Quick Start` section to `README.md` for file-capable ChatGPT / LLM environments
+- made the example explicitly non-canonical: it does not replace the Protocol or Trigger Index and is not promoted to canonical runtime semantics
+- preserved the minimum runtime pair: Protocol `v8.3.18` + Trigger Index `v0.1`
+- recorded the assigned public repository URL: `https://github.com/639228/structural-reading-protocol`
+- updated `CITATION.md` and `VERSION.md` to reflect the assigned repository
+- added `release_control/WORK_UNIT_08_QUICK_START_AND_REPOSITORY_METADATA_PATCH.md`
+
+### Behavioral / semantic boundary
+
+- Protocol `v8.3.18` unchanged
+- Trigger Index `v0.1` unchanged
+- Coverage / Manifest / Retrieval / Regression / Cross / Integration payloads unchanged
+- `INSTALLATION.md`, `LICENSE.md`, metadata authority, and saved fresh execution evidence unchanged
+- the Quick Start is a distribution-side example built from the already preserved runtime-role and non-checklist guidance; it does not create a new runtime operation, Trigger row, field 4/6 rule, or semantic owner
+- new fresh behavioral run: `NO START`; the example does not introduce a new semantic instruction and is bounded by existing loading guidance plus the already observed fresh bootstrap role-separation behavior
+
+### Release state
+
+- Distribution `1.0.2` is the current stable documentation patch over `1.0.1`
+- Protocol remains `v8.3.18`; Trigger Index remains `v0.1`
+
 ## 1.0.1 — 2026-08-26
 
 ### Documentation-only acknowledgement patch

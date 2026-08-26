@@ -27,7 +27,7 @@ Social profile supplied by the creator:
 
 Repository:
 
-- not yet assigned
+- https://github.com/639228/structural-reading-protocol
 
 DOI:
 
@@ -39,7 +39,7 @@ When citing the Protocol generally:
 
 > 639228. (2026). *構造的読解プロトコル* (Version 8.3.18). CC BY 4.0.
 
-When citing a specific public distribution, also include the exact Distribution version shown in that package and, once assigned, its repository release URL and DOI.
+When citing a specific public distribution, also include the exact Distribution version shown in that package and its repository release URL; include the DOI once assigned.
 
 ## Version discipline
 

@@ -2,15 +2,15 @@
 
 ## Distribution identity
 
-- Distribution: `1.0.1`
+- Distribution: `1.0.2`
 - Distribution status: stable public release
-- Stable predecessor: `1.0.0`
+- Stable predecessor: `1.0.1`
 - Downstream snapshot label: `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`
 - Upstream checkpoint boundary: `checkpoint275`
 - Preferred lookup at handoff: `PREFERRED_CURRENT_LOOKUP_V1.9_PROJECTION_REFRESH_PROMOTED`
 - `PROMOTED_STABLE` at upstream handoff: not established
 
-`1.0.1` is a downstream documentation-only stable patch identity. It does not imply an upstream semantic revision or upgrade the upstream handoff's promotion strength.
+`1.0.2` is a downstream documentation-only stable patch identity. It does not imply an upstream semantic revision or upgrade the upstream handoff's promotion strength.
 
 ## Public identity / license
 
@@ -18,7 +18,7 @@
 - Licensor: `639228`
 - License: `CC BY 4.0`
 - DOI: not yet assigned
-- Repository: not yet assigned
+- Repository: https://github.com/639228/structural-reading-protocol
 
 ## Upstream semantic identity
 
@@ -47,6 +47,7 @@
 - verified development base: `0.1.0-dev.5`
 - verified release candidate: `1.0.0-rc.1`
 - first stable public release: `1.0.0`
-- current stable documentation patch: `1.0.1`
+- predecessor stable documentation patch: `1.0.1`
+- current stable documentation patch: `1.0.2`
 
-The `1.0.1` patch adds a README acknowledgement and corresponding downstream release metadata only. Runtime semantic identity remains Protocol `v8.3.18` + Trigger Index `v0.1`.
+The `1.0.2` patch adds a non-canonical README Quick Start usage example and records the assigned public repository URL. Runtime semantic identity remains Protocol `v8.3.18` + Trigger Index `v0.1`.
