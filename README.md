@@ -577,7 +577,7 @@ Protocol本文やTrigger Indexの英訳版ではありません。
 - Regression: `v1.2`
 - Cross audit: `v0.20`
 - Integration audit: `v0.11`
-- Distribution: `1.0.3`
+- Distribution: `1.0.4`
 
 Protocol versionとDistribution versionは別です。
 
