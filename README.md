@@ -2,7 +2,7 @@
 
 [English](README.en.md) · [Installation](INSTALLATION.md) · [Latest Release](https://github.com/639228/structural-reading-protocol/releases/latest)
 
-**配布版:** `1.0.3`  
+**配布版:** `1.0.4`  
 **状態:** 安定公開版
 
 ### ChatGPTに「もっと深く考えさせる」ためではなく、
@@ -563,7 +563,7 @@ Protocol本文やTrigger Indexの英訳版ではありません。
 **DOI:** 未付与
 **公開リポジトリ:** [https://github.com/639228/structural-reading-protocol](https://github.com/639228/structural-reading-protocol)
 
-ライセンス範囲と表示条件は `LICENSE.md`、推奨引用形式は `CITATION.md` を参照してください。
+`ライセンス本文は `LICENSE.md`、適用範囲・帰属表示に関する補足は `NOTICE.md`、推奨引用形式は `CITATION.md` を参照してください。`
 
 ---
 
