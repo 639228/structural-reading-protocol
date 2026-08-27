@@ -2,7 +2,7 @@
 
 [日本語](README.md)
 
-**Distribution:** `1.0.3`  
+**Distribution:** `1.0.4`  
 **Status:** **stable public release**
 
 ### Not a prompt for making ChatGPT “think harder,” but an execution architecture for controlling
@@ -122,7 +122,7 @@ The saved fresh-environment observation records `8 / 8` prepared FD cases passin
 **DOI:** not assigned  
 **Repository:** https://github.com/639228/structural-reading-protocol
 
-See `LICENSE.md` and `CITATION.md` for the distribution's license and preferred citation information.
+`See `LICENSE.md`for the standard license text,`NOTICE.md`for scope and attribution guidance, and`CITATION.md` for preferred citation information.`
 
 ## Versions
 
@@ -134,6 +134,6 @@ See `LICENSE.md` and `CITATION.md` for the distribution's license and preferred 
 - Regression: `v1.2`
 - Cross audit: `v0.20`
 - Integration audit: `v0.11`
-- Distribution: `1.0.2`
+- Distribution: `1.0.4`
 
 Protocol version and Distribution version are separate. Documentation-only changes do not revise the Protocol version.
