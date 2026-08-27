@@ -122,7 +122,7 @@ The saved fresh-environment observation records `8 / 8` prepared FD cases passin
 **DOI:** not assigned  
 **Repository:** https://github.com/639228/structural-reading-protocol
 
-See `LICENSE.md`for the standard license text,`NOTICE.md`for scope and attribution guidance, and`CITATION.md` for preferred citation information.
+See `LICENSE.md` for the standard license text, `NOTICE.md` for scope and attribution guidance, and `CITATION.md` for preferred citation information.
 
 ## Versions
 
