@@ -1,8 +1,8 @@
 # Current Release Readiness State
 
-State revision: `1.15`
+State revision: `1.16`
 
-Status: `DISTRIBUTION_1.0.5_DOI_METADATA_PATCH_MATERIALIZED / PUBLICATION_PENDING`
+Status: `DISTRIBUTION_1.0.5_GITHUB_AND_ZENODO_PUBLISHED_VERIFIED / DOI_REGISTERED / CURRENT_RELEASE_WORK_UNIT_CLOSED`
 
 Distribution: `1.0.5`
 
@@ -19,43 +19,17 @@ Public repository:
 
 ## 1. Role
 
-This is the downstream pre-publication readiness state for Distribution `1.0.5`.
+This is the downstream post-publication closure state for Distribution `1.0.5`.
 
-It supersedes revision `1.14` as current downstream release-control owner only after this file is actually admitted as the Project-backed current source.
+It supersedes readiness revision `1.15` as current downstream release-control owner only after this file is actually admitted as the Project-backed current source.
 
 It is not a semantic owner and does not replace the Protocol, Trigger Index, canonical handoff, developer/research owners, evidence/provenance owners, GitHub live public state, or Zenodo live public state.
 
-## 2. Predecessor closure
+## 2. Distribution 1.0.5 change class
 
-Distribution `1.0.4` remains:
+Distribution `1.0.5` is a downstream DOI / citation / bibliographic metadata patch over published stable `1.0.4`.
 
-`GITHUB PUBLISHED / VERIFIED / ZENODO PUBLISHED / DOI ASSIGNED / CLOSED`
-
-Its published tag, GitHub Release, archive, Zenodo version record, and DOI are immutable predecessors for this work unit.
-
-No `1.0.4` publication artifact is rewritten by Distribution `1.0.5`.
-
-## 3. DOI state for successor
-
-Distribution `1.0.5` version DOI:
-
-`10.5281/zenodo.22129037`
-
-All-versions / concept DOI:
-
-`10.5281/zenodo.22127380`
-
-Current `1.0.5` DOI state at this readiness point:
-
-`RESERVED / NOT YET REGISTERED`
-
-The version DOI was reserved in a Zenodo `New version` draft derived from the published `1.0.4` version chain.
-
-Publication / registration remains pending until the `1.0.5` Zenodo record is actually published and verified.
-
-## 4. Distribution delta
-
-Distribution `1.0.5` changes downstream bibliographic/release metadata only:
+The published delta is limited to:
 
 - `README.md`
 - `README.en.md`
@@ -66,17 +40,150 @@ Distribution `1.0.5` changes downstream bibliographic/release metadata only:
 - `release_control/CURRENT_RELEASE_READINESS_STATE.md`
 - regenerated `release_control/PACKAGE_SHA256SUMS.txt`
 
-No runtime artifact is changed.
+No runtime artifact was changed.
 
-## 5. Runtime / support preservation
+## 3. GitHub publication closure
+
+GitHub state:
+
+`PUBLISHED / VERIFIED`
+
+Tag:
+
+`v1.0.5`
+
+Tag target commit:
+
+`1e35530941084ef35c520159d2f258e9cdfb990d`
+
+Release title:
+
+`構造的読解プロトコル — Public Distribution 1.0.5`
+
+Release state:
+
+- published
+- draft: `false`
+- prerelease: `false`
+- Latest Release: `v1.0.5`
+
+Release assets:
+
+1. `public_distribution_1.0.5.tar.gz`
+   - SHA-256: `522c79359bb77e63a1013fc84b40f80d83460a470a6267469d087c9587136cf0`
+
+2. `public_distribution_1.0.5.tar.gz.sha256`
+   - GitHub asset digest: `sha256:ff0ad9196070ec50cc832d87b69948a12da3646a73001fe9e59336d3075d26d5`
+
+The published archive digest matches the verified release candidate archive.
+
+## 4. Zenodo publication closure
+
+Zenodo state:
+
+`PUBLISHED / VERIFIED FROM CURRENT PUBLISHED RECORD PAGE`
+
+Version:
+
+`1.0.5`
+
+Version DOI:
+
+`10.5281/zenodo.22129037`
+
+All-versions / concept DOI:
+
+`10.5281/zenodo.22127380`
+
+Published version chain observed:
+
+- `1.0.5` — `10.5281/zenodo.22129037`
+- `1.0.4` — `10.5281/zenodo.22127381`
+
+Published file:
+
+`public_distribution_1.0.5.tar.gz`
+
+Zenodo-displayed MD5:
+
+`5bcae064389d7b0ca14c4f34c2d985cb`
+
+Corresponding verified SHA-256:
+
+`522c79359bb77e63a1013fc84b40f80d83460a470a6267469d087c9587136cf0`
+
+The Zenodo-published file therefore matches the verified GitHub release archive identity.
+
+Zenodo DOI state:
+
+`REGISTERED / PUBLISHED`
+
+This conclusion is based on the observed published record state together with Zenodo's documented behavior that reserved DOIs are registered when a record is published.
+
+## 5. Zenodo metadata state
+
+Main title:
+
+`構造的読解プロトコル — Public Distribution 1.0.5`
+
+Translated title:
+
+`Structural Reading Protocol — Public Distribution 1.0.5`
+
+English subtitle:
+
+`A Natural-Language Execution Architecture for LLM Reading, Inquiry, Research, and Evaluation`
+
+Creator:
+
+`639228`
+
+Resource type:
+
+`Software`
+
+License:
+
+`Creative Commons Attribution 4.0 International (CC BY 4.0)`
+
+Description identifies Distribution `1.0.5` as a downstream DOI / citation / bibliographic metadata patch and preserves Protocol `v8.3.18` / Trigger Index `v0.1` unchanged.
+
+Keywords / subjects retained:
+
+- `large language models`
+- `LLM`
+- `ChatGPT`
+- `close reading`
+- `reasoning`
+- `natural language programming`
+- `natural language execution architecture`
+- `runtime dispatch`
+- `inquiry`
+- `research`
+- `evaluation`
+
+## 6. Runtime / support preservation
+
+Protocol:
+
+`v8.3.18` unchanged
 
 Canonical Protocol SHA-256:
 
 `ea0f05e0b0a87868e92c35a2f4ce38b456fb9980b304c48cf72331a388b618cd`
 
+Trigger Index:
+
+`v0.1` unchanged
+
 Canonical Trigger SHA-256:
 
 `78f37f241d092c93490301d73396c102f0c248df3f9c48d88302db1e99147146`
+
+Published GitHub tag blob identities remain:
+
+- Protocol: `bca89a7e61bda583fa34d6bc66b7dc57f2739c7d`
+- Trigger Index: `e6e2ee051b605bcc4436f4d58288665a385c6ecc`
 
 Support identities remain:
 
@@ -91,96 +198,97 @@ Current semantic defect candidate:
 
 `NONE EXPOSED`
 
-## 6. Fresh behavioral judgment
+## 7. Fresh behavioral judgment
 
-New fresh behavioral run:
+New fresh behavioral run for Distribution `1.0.5`:
 
 `NO START`
 
 Reason:
 
-The actual `1.0.5` delta is DOI / citation / README / version / release-control metadata only. It does not alter runtime loading, bootstrap, source selection, dispatch, semantic ownership, minimum runtime composition, installation behavior, Protocol bytes, or Trigger bytes.
+The actual change is DOI / citation / README / version / release-control metadata only. Runtime loading, bootstrap, source selection, dispatch, semantic ownership, minimum runtime composition, installation behavior, Protocol bytes, and Trigger bytes are unchanged.
 
 Saved bounded fresh-environment evidence remains at its previously recorded strength only.
 
-## 7. Materialization verification
+## 8. Zenodo GitHub integration state
 
-Expected package file count:
+Zenodo GitHub automatic preservation for:
 
-`39`
+`639228/structural-reading-protocol`
 
-Expected changed files relative to the published `1.0.4` package:
+was disabled before GitHub `v1.0.5` publication to avoid creating a second Zenodo lineage in parallel with the manually maintained version chain.
 
-`8`
+Current release engineering judgment:
 
-The two checksum inventories are not self-hashed; `PACKAGE_SHA256SUMS.txt` records the other 38 package files.
+`KEEP OFF`
 
-Required materialization checks:
+until a later explicit work unit decides to migrate from the manual Zenodo version chain to GitHub automatic preservation.
 
-- package file count = 39;
-- changed-file set exactly matches the downstream metadata delta plus regenerated package checksum inventory;
-- Protocol / Trigger canonical SHA-256 unchanged;
-- current support-owner SHA-256 unchanged;
-- deterministic archive regeneration;
-- archive re-extraction byte-for-byte match.
+This is a distribution/publication workflow decision, not runtime semantics.
 
-These checks must pass before publication.
+## 9. Work-unit closure
 
-## 8. Publication gate
+Distribution `1.0.5` materialization:
 
-GitHub `v1.0.5` tag:
+`PASS`
 
-`NOT YET PUBLISHED`
+GitHub publication:
 
-GitHub Release `v1.0.5`:
+`PASS`
 
-`NOT YET PUBLISHED`
+GitHub tag / asset identity:
 
-Zenodo `1.0.5` record:
+`PASS`
 
-`DRAFT / DOI RESERVED`
+Zenodo publication:
 
-Zenodo DOI registration:
+`PASS`
 
-`NOT YET REGISTERED`
+Version DOI registration:
 
-Do not report any of these later publication states as complete before live verification.
+`PASS`
 
-Before publishing the GitHub Release, ensure Zenodo GitHub automatic preservation for this repository is disabled so the manually maintained Zenodo version chain is not unintentionally duplicated.
+Concept DOI continuity:
 
-## 9. Semantic boundary
+`PASS`
 
-No current observation authorizes:
+Runtime preservation:
 
-- Protocol semantic revision;
-- Trigger semantic revision;
-- a new runtime operation;
-- a new Trigger row;
-- field 4 / field 6 semantic change;
-- Regression expectation change;
-- Reference Gate repair.
+`PASS`
+
+Fresh behavioral rerun:
+
+`NO START`
 
 Current semantic defect candidate:
 
 `NONE EXPOSED`
 
-## 10. Current judgment
+Distribution `1.0.5` work unit:
 
-Distribution `1.0.5` materialization:
+`CLOSED`
 
-`READY FOR VERIFICATION`
+## 10. Current downstream judgment
 
-GitHub publication:
+Distribution `1.0.5`:
 
-`PENDING`
+`PUBLISHED / VERIFIED / ARCHIVED / DOI REGISTERED / CLOSED`
 
-Zenodo publication:
+GitHub:
 
-`PENDING`
+`PASS`
 
-DOI:
+Zenodo:
 
-`RESERVED / NOT YET REGISTERED`
+`PASS`
+
+Version DOI:
+
+`10.5281/zenodo.22129037`
+
+All-versions / concept DOI:
+
+`10.5281/zenodo.22127380`
 
 Protocol:
 
@@ -189,3 +297,13 @@ Protocol:
 Trigger Index:
 
 `v0.1` unchanged
+
+Next Release Engineering work unit:
+
+`NO START`
+
+Reason:
+
+The currently requested Distribution `1.0.5` publication judgment is complete. No concrete successor distribution defect, publication defect, metadata inconsistency, asset integrity issue, source-selection issue, Zenodo/DOI issue, or upstream canonical successor is currently exposed.
+
+Resume release work only when a concrete new requirement or state change appears.
