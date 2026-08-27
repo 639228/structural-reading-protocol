@@ -2,7 +2,7 @@
 
 [English](README.en.md) · [Installation](INSTALLATION.md) · [Latest Release](https://github.com/639228/structural-reading-protocol/releases/latest)
 
-**配布版:** `1.0.4`  
+**配布版:** `1.0.5`  
 **状態:** 安定公開版
 
 ### ChatGPTに「もっと深く考えさせる」ためではなく、
@@ -560,7 +560,8 @@ Protocol本文やTrigger Indexの英訳版ではありません。
 
 **作成者 / ライセンサー:** `639228`
 **ライセンス:** Creative Commons Attribution 4.0 International (`CC BY 4.0`)
-**DOI:** 未付与
+**Version DOI:** [10.5281/zenodo.22129037](https://doi.org/10.5281/zenodo.22129037)  
+**All-versions DOI:** [10.5281/zenodo.22127380](https://doi.org/10.5281/zenodo.22127380)
 **公開リポジトリ:** [https://github.com/639228/structural-reading-protocol](https://github.com/639228/structural-reading-protocol)
 
 ライセンス本文は `LICENSE.md`、適用範囲・帰属表示に関する補足は `NOTICE.md`、推奨引用形式は `CITATION.md` を参照してください。
@@ -577,7 +578,7 @@ Protocol本文やTrigger Indexの英訳版ではありません。
 - Regression: `v1.2`
 - Cross audit: `v0.20`
 - Integration audit: `v0.11`
-- Distribution: `1.0.4`
+- Distribution: `1.0.5`
 
 Protocol versionとDistribution versionは別です。
 

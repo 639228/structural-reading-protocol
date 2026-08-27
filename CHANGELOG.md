@@ -1,4 +1,25 @@
 # Changelog
+
+## 1.0.5 — 2026-08-27
+
+### DOI / citation / bibliographic metadata patch
+
+- records the Distribution `1.0.5` Zenodo version DOI `10.5281/zenodo.22129037`;
+- preserves all-versions / concept DOI `10.5281/zenodo.22127380` for the existing Zenodo version chain;
+- updates Japanese and English README DOI / Distribution metadata;
+- updates `CITATION.md`, `CITATION.cff`, and `VERSION.md` for Distribution `1.0.5`;
+- preserves the published `v1.0.4` GitHub tag, Release, archive, and Zenodo version record unchanged;
+- keeps creator/licensor identity `639228` and license `CC BY 4.0` / `CC-BY-4.0` unchanged.
+
+### Behavioral / semantic boundary
+
+- Protocol `v8.3.18` unchanged;
+- Trigger Index `v0.1` unchanged;
+- Coverage / Manifest / Retrieval / Regression / Cross / Integration semantic/support identities unchanged;
+- fresh behavioral rerun: `NO START`;
+- no runtime loading, bootstrap, source-selection, dispatch, semantic-owner, minimum-runtime, or installation change;
+- no semantic repair, new runtime operation, Trigger row, field 4/6 semantic change, Regression expectation change, or Reference Gate change.
+
 ## 1.0.4 — 2026-08-27
 
 ### License detection / metadata packaging patch

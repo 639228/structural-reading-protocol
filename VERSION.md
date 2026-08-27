@@ -2,15 +2,17 @@
 
 ## Distribution identity
 
-- Distribution: `1.0.4`
-- Distribution status: stable public release
-- Stable predecessor: `1.0.3`
+- Distribution: `1.0.5`
+- Distribution status: stable release line
+- Stable predecessor: `1.0.4`
 - Downstream snapshot label: `PUBLIC_DISTRIBUTION_CANONICAL_SNAPSHOT_V1.0`
 - Upstream checkpoint boundary: `checkpoint275`
 - Preferred lookup at handoff: `PREFERRED_CURRENT_LOOKUP_V1.9_PROJECTION_REFRESH_PROMOTED`
 - `PROMOTED_STABLE` at upstream handoff: not established
 
-`1.0.4` is a downstream license-detection / release-metadata packaging patch over published stable `1.0.3`. It replaces the mixed explanatory `LICENSE.md` with the standard Creative Commons Attribution 4.0 International license text, moves distribution-specific scope / attribution / third-party-material / no-endorsement guidance to `NOTICE.md`, and adds machine-readable `CITATION.cff`.
+`1.0.5` is a downstream DOI / citation / bibliographic metadata patch over published stable `1.0.4`.
+
+It records the Zenodo DOI reserved for Distribution `1.0.5`, preserves the all-versions DOI for the existing Zenodo version chain, and updates public citation / README / version metadata without rewriting the published `v1.0.4` tag or its Zenodo version record.
 
 It does not imply an upstream semantic revision or upgrade the upstream handoff's promotion strength.
 
@@ -20,7 +22,8 @@ It does not imply an upstream semantic revision or upgrade the upstream handoff'
 - Licensor: `639228`
 - License: Creative Commons Attribution 4.0 International (`CC BY 4.0`)
 - SPDX: `CC-BY-4.0`
-- DOI: not yet assigned
+- Version DOI: `10.5281/zenodo.22129037`
+- All-versions DOI: `10.5281/zenodo.22127380`
 - Repository: https://github.com/639228/structural-reading-protocol
 
 ## Upstream semantic identity
@@ -39,8 +42,8 @@ It does not imply an upstream semantic revision or upgrade the upstream handoff'
 
 ## Fresh deployment evidence
 
-- New fresh behavioral run for `1.0.4`: `NO START`
-- Reason: license / NOTICE / citation / version packaging changes do not alter runtime semantics, ownership, dispatch, bootstrap, or the minimum runtime pair.
+- New fresh behavioral run for `1.0.5`: `NO START`
+- Reason: DOI / citation / README / version metadata changes do not alter runtime semantics, ownership, dispatch, bootstrap, source selection, installation behavior, or the minimum runtime pair.
 - Saved evidence remains: prepared FD cases `8 / 8 PASS` in one bounded operator-reported fresh Project execution.
 - Protocol-wide adequacy: not established.
 - Natural whole-protocol execution: not established.
@@ -55,6 +58,7 @@ It does not imply an upstream semantic revision or upgrade the upstream handoff'
 - public entrypoint / ChatGPT setup patch: `1.0.2`
 - README quick-access / navigation patch: `1.0.3`
 - license-detection / release-metadata packaging patch: `1.0.4`
+- DOI / citation / bibliographic metadata patch: `1.0.5`
 
 ## Semantic boundary
 

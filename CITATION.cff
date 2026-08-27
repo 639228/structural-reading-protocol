@@ -4,17 +4,18 @@ title: "構造的読解プロトコル — Public Distribution"
 authors:
   - name: "639228"
 type: software
-version: "1.0.4"
+version: "1.0.5"
 date-released: "2026-08-27"
+doi: "10.5281/zenodo.22129037"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/639228/structural-reading-protocol"
 url: "https://github.com/639228/structural-reading-protocol"
 abstract: >-
   Public distribution of the Structural Reading Protocol, a natural-language
   execution architecture for controlling what to examine, when to invoke
-  analysis or research, and when to stop. Distribution 1.0.4 preserves
+  analysis or research, and when to stop. Distribution 1.0.5 preserves
   Protocol v8.3.18 and Trigger Index v0.1 unchanged and applies only
-  downstream license-detection and release-metadata packaging changes.
+  downstream DOI, citation, and bibliographic release-metadata changes.
 keywords:
   - "ChatGPT"
   - "close reading"
